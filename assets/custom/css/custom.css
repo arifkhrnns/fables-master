@@ -173,6 +173,10 @@ body{
     padding: 50px 0;
     background-image: url(../images/DSCF9424\ 1.png); 
 }
+.bg-blog-details {
+    padding: 50px 0;
+    background-image: url(../images/DSCF9424\ 1.png);
+}
 .fables-after-overlay{
     position: relative; 
 }
@@ -2824,6 +2828,10 @@ a:hover , .btn-link:hover{
 .fables-light-background-color {
     background-color: #F6F6F6; 
 }
+.bg-color-blogdetails {
+    background-color: rgba(44,62,79,.9);
+}
+
 .fables-main-color-transparent {
      background-color: rgba(44,62,79,.9);
 }
