@@ -196,6 +196,8 @@ body::-webkit-scrollbar {
 .bg-blog-details {
   padding: 50px 0;
   background-image: url(../images/DSCF9424\ 1.png);
+  padding: 50px 0;
+  background-image: url(../images/bg-blog.jpg);
 }
 .fables-after-overlay {
   position: relative;
