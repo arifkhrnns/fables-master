@@ -694,26 +694,88 @@ body::-webkit-scrollbar {
 }
 /******************* Start Store Pages *************************/
 
-.mission-box {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.mission-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.mission-container p {
+  display: grid;
+  grid-template-columns: 2rem auto; /* Two columns: one for number, one for text */
+  gap: 1rem; /* Space between the number and text */
+  align-items: center; /* Vertically aligns number and text in the center */
+  text-align: justify;
+  padding-left: 0; /* Removes unnecessary padding */
 }
 
 .mission-number {
   font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1; /* Ensure numbers have consistent line-height */
+  align-self: start; /* Aligns the number to the top of the text */
 }
 
-.mission-text {
-  text-align: justify;
-  word-break: break-word;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  line-height: 1.6; /* Untuk menjaga keterbacaan */
-  padding: 0 10px; /* Untuk menambah ruang sedikit di kiri dan kanan */
+.mission-container p span.mission-number {
+  display: inline-block;
+  width: 2rem; /* Same width for numbers */
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .mission-container p {
+    grid-template-columns: 1.5rem auto; /* Adjust grid size for smaller screens */
+  }
+  .mission-number {
+    font-size: 1.5rem; /* Reduce number size on mobile */
+  }
+}
+
+/* Animations for numbers */
+.mission-number:nth-child(1) {
+  animation: bounce 1.5s ease-in-out infinite;
+}
+
+.mission-number:nth-child(2) {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.mission-number:nth-child(3) {
+  animation: pulse 2s infinite;
+}
+
+/* Keyframes for animations */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .fables-view-btn {

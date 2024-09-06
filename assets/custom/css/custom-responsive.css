@@ -90,76 +90,46 @@
     opacity: 1;
   }
 }
-/* Style for "Visi" and "Misi" sections */
-@media (max-width: 768px) {
-  .font-35 {
-    font-size: 1.875rem; /* Keep title font size for smaller screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .owl-nav {
+    display: none; /* Hides navigation buttons */
   }
-
-  /* Reduce subtitle text size */
-  .font-20 {
-    font-size: 1.25rem; /* Smaller font size for subtitles */
-  }
-
-  /* Reduce general text size */
-  .font-15 {
-    font-size: 1rem; /* Smaller font size for regular text */
-  }
-
-  .mission-box {
-    padding: 2rem; /* Slightly reduce padding for smaller screens */
-    margin-bottom: 1rem; /* Add spacing between items */
-  }
-
-  /* Adjust icon size */
-  .mission-icon i {
-    font-size: 1.25rem; /* Smaller icon size */
-  }
-
-  /* Adjust number size */
-  .mission-number {
-    font-size: 1.25rem; /* Smaller number size */
-  }
-
-  /* Ensure text is centered */
-  .text-center {
-    text-align: center; /* Ensure text is centered on smaller screens */
-  }
-
-  .mission-text {
-    font-size: 0.875rem;
-  }
-  .col-lg-4 {
-    margin-bottom: 1rem;
-  }
-
-  /* Layout adjustment for mobile */
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-
-  .col-12.col-sm-6.col-lg-4 {
-    flex: 0 0 50%; /* Two items per row */
-    max-width: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  /* Ensure spacing between items */
-  .col-12.col-sm-6.col-lg-4.pt-3.pt-md-4 {
-    margin-bottom: 1rem;
-  }
-
-  /* Make the third item span the entire row */
-  .col-12.col-sm-6.col-lg-4:nth-of-type(3) {
-    flex: 0 0 100%;
-    max-width: 100%;
+}
+/* Hide navigation buttons on mobile screens */
+@media (max-width: 767px) {
+  .owl-nav {
+    display: none; /* Hides navigation buttons */
   }
 }
 
+/* Style for "Visi" and "Misi" sections */
+@media (max-width: 767px) {
+  .font-35 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+  .font-20 {
+    font-size: 1.125rem;
+  }
+  .font-15 {
+    font-size: 0.875rem;
+  }
+  .mission-box {
+    padding: 1rem;
+    flex-direction: column; /* Stack number and text vertically on small screens */
+    align-items: flex-start;
+  }
+  .mission-number {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+  .mission-text {
+    font-size: 0.75rem;
+  }
+  .fables-main-text-color,
+  .fables-second-text-color {
+    font-size: 1.5rem; /* Adjust heading size for smaller screens */
+  }
+}
 /* Base styles for 7 karakter */
 @media (max-width: 768px) {
   /* Reduce font sizes */
@@ -235,16 +205,16 @@
 /* Responsive Footer */
 @media (max-width: 767px) {
   .font-20 {
-    font-size: 1.5rem;
+    font-size: 1.125rem; /* Reduced from 1.5rem */
   }
   .font-16 {
-    font-size: 1.25rem;
+    font-size: 1rem; /* Reduced from 1.25rem */
   }
   .font-15 {
-    font-size: 1.125rem;
+    font-size: 0.875rem; /* Reduced from 1.125rem */
   }
   .font-14 {
-    font-size: 1rem;
+    font-size: 0.75rem; /* Reduced from 1rem */
   }
   .fables-footer-social-links {
     margin-top: 10px;
@@ -253,9 +223,10 @@
     margin: 0 5px;
   }
   .copyright p {
-    font-size: 0.875rem;
+    font-size: 0.75rem; /* Reduced from 0.875rem */
   }
 }
+
 @media (max-width: 1024px) {
   .navbar-brand {
     padding-right: 0 !important;
@@ -856,6 +827,7 @@
   }
   .fables-sqr-nav .owl-nav [class*="owl-"] {
     position: static;
+    display: none;
   }
   .video-section .pattern-overlay {
     padding: 10px 0 50px;
