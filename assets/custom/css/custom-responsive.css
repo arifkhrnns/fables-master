@@ -144,6 +144,47 @@
   }
 }
 
+/* Base styles for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Reduce font sizes */
+  .font-35 {
+    font-size: 1.5rem; /* Smaller title font size */
+  }
+  .font-17 {
+    font-size: 0.875rem; /* Smaller text font size */
+  }
+
+  /* Ensure the Karakteristik items align in three columns on mobile */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Reduce the column size to make them smaller */
+  .col-12.col-sm-6.col-lg-3 {
+    flex: 0 0 30%; /* Smaller column width */
+    max-width: 30%; /* Ensure it takes less space */
+    padding: 5px; /* Reduce padding between items */
+  }
+
+  /* Reduce the padding inside the table-block */
+  .table-block {
+    padding: 0.5rem; /* Smaller padding inside the boxes */
+  }
+
+  /* Add spacing between items for mobile view */
+  .mb-lg-0 {
+    margin-bottom: 10px; /* Smaller margin between items */
+  }
+
+  /* Reduce the image size */
+  .table-block img {
+    width: 50px; /* Reduce the image size */
+    height: auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .navbar-brand {
     padding-right: 0 !important;
