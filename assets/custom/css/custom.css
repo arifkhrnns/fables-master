@@ -693,6 +693,29 @@ body::-webkit-scrollbar {
   line-height: 28px;
 }
 /******************* Start Store Pages *************************/
+
+.mission-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mission-number {
+  font-size: 2rem;
+}
+
+.mission-text {
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  line-height: 1.6; /* Untuk menjaga keterbacaan */
+  padding: 0 10px; /* Untuk menambah ruang sedikit di kiri dan kanan */
+}
+
 .fables-view-btn {
   cursor: pointer;
   border-width: 1px;
@@ -1603,11 +1626,29 @@ body::-webkit-scrollbar {
   background-image: url(../images/DSCF9403\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-
+.fables-footer-image img {
+  max-width: 100%;
+  height: auto;
+}
 .fables-footer-image .container {
   position: relative;
   z-index: 1;
+}
+.fables-footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.fables-footer-links li {
+  margin-bottom: 10px;
+}
+.fables-footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.fables-footer-links a:hover {
+  text-decoration: underline;
 }
 .fables-footer-links li a {
   font-weight: 400;
@@ -2396,7 +2437,7 @@ body::-webkit-scrollbar {
   left: 7%;
 }
 .above-date .day {
-  font-size: 26px;
+  font-size: 18px;
 }
 .above-date .month {
   font-size: 10px;
@@ -3052,6 +3093,11 @@ a:hover,
 .fables-second-hover-color:hover .fables-third-text-color,
 .fables-second-hover-text-color:hover .fables-fifth-border-color {
   color: #e54d42 !important;
+}
+.fables-forth-text-color {
+  font-size: 0.8125rem; /* Slightly smaller font size for paragraph text */
+  text-align: justify; /* Justify text alignment */
+  text-justify: inter-word; /* Adjust word spacing for better justification */
 }
 .fables-second-hover-text-color:hover .fables-forth-text-color {
   border-color: #e54d42;

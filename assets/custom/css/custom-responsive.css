@@ -93,58 +93,74 @@
 /* Style for "Visi" and "Misi" sections */
 @media (max-width: 768px) {
   .font-35 {
-    font-size: 1.75rem; /* Adjust font size for smaller screens */
+    font-size: 1.875rem; /* Keep title font size for smaller screens */
   }
+
+  /* Reduce subtitle text size */
   .font-20 {
-    font-size: 1.25rem; /* Adjust font size for smaller screens */
+    font-size: 1.25rem; /* Smaller font size for subtitles */
   }
+
+  /* Reduce general text size */
   .font-15 {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 1rem; /* Smaller font size for regular text */
   }
 
   .mission-box {
-    padding: 1rem; /* Adjust padding for smaller screens */
+    padding: 2rem; /* Slightly reduce padding for smaller screens */
     margin-bottom: 1rem; /* Add spacing between items */
   }
 
+  /* Adjust icon size */
   .mission-icon i {
-    font-size: 1.5rem; /* Adjust icon size for smaller screens */
+    font-size: 1.25rem; /* Smaller icon size */
   }
 
+  /* Adjust number size */
   .mission-number {
-    font-size: 1.5rem; /* Adjust number size for smaller screens */
+    font-size: 1.25rem; /* Smaller number size */
   }
 
+  /* Ensure text is centered */
   .text-center {
     text-align: center; /* Ensure text is centered on smaller screens */
+  }
+
+  .mission-text {
+    font-size: 0.875rem;
+  }
+  .col-lg-4 {
+    margin-bottom: 1rem;
   }
 
   /* Layout adjustment for mobile */
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
   .col-12.col-sm-6.col-lg-4 {
-    flex: 0 0 50%;
+    flex: 0 0 50%; /* Two items per row */
     max-width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
+  /* Ensure spacing between items */
   .col-12.col-sm-6.col-lg-4.pt-3.pt-md-4 {
-    margin-bottom: 1rem; /* Ensure spacing between items */
+    margin-bottom: 1rem;
   }
 
+  /* Make the third item span the entire row */
   .col-12.col-sm-6.col-lg-4:nth-of-type(3) {
     flex: 0 0 100%;
     max-width: 100%;
   }
 }
 
-/* Base styles for mobile responsiveness */
+/* Base styles for 7 karakter */
 @media (max-width: 768px) {
   /* Reduce font sizes */
   .font-35 {
@@ -185,6 +201,61 @@
   }
 }
 
+/* Base styles for Program Tahunan */
+@media (max-width: 768px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h2.font-22 {
+    font-size: 1rem; /* Sesuaikan ukuran font untuk layar kecil */
+  }
+
+  .image-container {
+    padding: 5px; /* Tambahkan padding untuk gambar */
+  }
+}
+
+/* Ensure the news container is responsive for UA News */
+@media (max-width: 576px) {
+  .font-18 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  .font-13 {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Responsive Footer */
+@media (max-width: 767px) {
+  .font-20 {
+    font-size: 1.5rem;
+  }
+  .font-16 {
+    font-size: 1.25rem;
+  }
+  .font-15 {
+    font-size: 1.125rem;
+  }
+  .font-14 {
+    font-size: 1rem;
+  }
+  .fables-footer-social-links {
+    margin-top: 10px;
+  }
+  .fables-footer-social-links li {
+    margin: 0 5px;
+  }
+  .copyright p {
+    font-size: 0.875rem;
+  }
+}
 @media (max-width: 1024px) {
   .navbar-brand {
     padding-right: 0 !important;
