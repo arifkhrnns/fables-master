@@ -37,6 +37,61 @@ $(document).ready(function(){
     });
 });
 
+window.addEventListener('scroll', function() {
+  var header = document.querySelector('.fables-navigation');
+  if (window.scrollY > 100) { 
+    header.classList.add('navbar-scrolled');
+    console.log('Class added');
+  } else {
+    header.classList.remove('navbar-scrolled');
+    console.log('Class removed');
+  }
+});
+
+$(document).ready(function(){
+    $(".manual-carousel").owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 10,
+        nav: false, // Set to false to remove navigation buttons
+        dots: false,
+        center: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+});
+ 
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    items: 1,
+    navText: ['<', '>'],
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 1
+      },
+      992: {
+        items: 1
+      }
+    }
+  });
+});
+
 // 3 items carousel carousel-items-3
  $(".carousel-items-4").owlCarousel({  
      margin:20,

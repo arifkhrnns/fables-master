@@ -52,10 +52,20 @@
   }
 }
 @media (max-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+  .fables-navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #0066cc;
+  }
   .navbar-collapse {
-    max-height: 0;
+    max-height: 100vh;
     background-color: rgba(30, 87, 153, 1) 100%;
-    overflow: hidden;
+    overflow: auto;
     transition: max-height 0.5s ease-in-out;
   }
   .navbar-nav .nav-link {
