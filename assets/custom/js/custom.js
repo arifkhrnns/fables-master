@@ -48,26 +48,24 @@ window.addEventListener('scroll', function() {
   }
 });
 
-$(document).ready(function(){
-    $(".manual-carousel").owlCarousel({
-        items: 5,
-        loop: true,
-        margin: 10,
-        nav: false, // Set to false to remove navigation buttons
-        dots: false,
-        center: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 5
-            }
+$('.manual-carousel').owlCarousel({
+    loop: true,
+    margin: 5, // Jarak antar item
+    nav: false, // Navigasi
+    responsive: {
+        0: {
+            items: 3, // Tampilkan 3 gambar pada layar kecil
+            margin: 5 // Jarak antar gambar pada layar kecil
+        },
+        600: {
+            items: 3, // Tampilkan 3 gambar pada layar medium
+            margin: 10 // Jarak antar gambar pada layar medium
+        },
+        768: {
+            items: 3, // Tampilkan 3 gambar pada layar besar
+            margin: 15 // Jarak antar gambar pada layar besar
         }
-    });
+    }
 });
  
 $(document).ready(function(){

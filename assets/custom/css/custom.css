@@ -472,15 +472,36 @@ body::-webkit-scrollbar {
   border-radius: 9px;
   padding: 8px;
 }
+
+/* Styles for Carousel Dots */
+.owl-carousel .owl-dots {
+  text-align: center; /* Center align dots */
+  margin-top: 10px; /* Space between dots and carousel */
+}
+
+.owl-carousel .owl-dot {
+  display: inline-block; /* Display dots inline */
+  margin: 0 5px; /* Space between dots */
+}
+
+.owl-carousel .owl-dot span {
+  background-color: #00ccff; /* Dot color */
+  border-radius: 50%; /* Round dots */
+  width: 10px; /* Dot size */
+  height: 10px; /* Dot size */
+  display: block; /* Ensure dots are block-level for better alignment */
+}
+
+/* Active Dot */
+.owl-carousel .owl-dot.active span {
+  background-color: #0066ff; /* Different color for active dot */
+}
+
 /* Carousel Styles */
 .owl-carousel .item {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.owl-carousel .owl-stage-outer {
-  padding: 0 15px;
 }
 
 .owl-carousel .owl-item {
@@ -491,6 +512,9 @@ body::-webkit-scrollbar {
 .owl-carousel .owl-item img {
   filter: blur(0);
   transition: filter 0.3s ease;
+  /* Perbesar ukuran gambar untuk responsif */
+  max-width: 100%;
+  height: auto;
 }
 
 .owl-carousel .owl-item.center img {
@@ -498,7 +522,7 @@ body::-webkit-scrollbar {
 }
 
 .owl-carousel .owl-item:not(.center) img {
-  filter: blur(1.5px);
+  filter: blur(0);
 }
 
 .owl-carousel .owl-nav {
@@ -507,28 +531,30 @@ body::-webkit-scrollbar {
 
 .owl-prev,
 .owl-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  font-size: 24px;
-  color: #333;
-  cursor: pointer;
+  background: #00ccff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Round buttons */
+  padding: 10px; /* Padding around buttons */
+  position: absolute; /* Position absolutely within the carousel container */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for exact center alignment */
+  font-size: 18px; /* Button icon size */
+  z-index: 100; /* Ensure buttons are on top */
 }
 
 .owl-prev {
-  left: 10px;
+  left: 10px; /* Space from the left edge */
 }
 
 .owl-next {
-  right: 10px;
+  right: 10px; /* Space from the right edge */
 }
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   .owl-carousel .owl-item {
-    width: 66%;
+    width: 30%; /* Tampilkan lebih banyak gambar dalam satu baris */
+    margin: 0 5px;
   }
 
   .owl-carousel .owl-item img {
@@ -536,6 +562,170 @@ body::-webkit-scrollbar {
     height: auto;
   }
 }
+/* Header Styles */
+.header-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px; /* Adjust padding for better control */
+  color: #fff;
+  text-align: left; /* Align text to the left */
+}
+
+.header-carousel {
+  display: flex;
+  justify-content: center; /* Center the carousel horizontally */
+}
+
+.header-carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start (left) */
+  text-align: left; /* Align text to the left */
+  padding: 20px; /* Add padding around items for spacing */
+  max-width: 100%; /* Ensure carousel items do not overflow */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.header-carousel .carousel-item img {
+  max-width: 100%; /* Ensure images fit within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Header Title */
+.header-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffff00; /* Yellow color for the title */
+  background: linear-gradient(90deg, #0066ff, #00ccff);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  line-height: 1.2; /* Adjust line height for spacing */
+}
+
+/* Highlight Text */
+.highlight-text {
+  color: #00ccff;
+}
+
+/* Header Description */
+.header-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+/* Primary Button */
+.btn.primary-btn {
+  background-color: #00ccff;
+  border-color: #00ccff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block; /* Ensure button is inline */
+  margin-top: 20px; /* Add space above the button */
+}
+
+.btn.primary-btn:hover {
+  background-color: #0099cc;
+  border-color: #0099cc;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 28px;
+  }
+
+  .header-description {
+    font-size: 16px;
+  }
+
+  .btn.primary-btn {
+    padding: 8px 16px;
+  }
+
+  .header-carousel .carousel-item {
+    flex-direction: column; /* Stack content vertically on small screens */
+    align-items: center; /* Center content horizontally */
+  }
+
+  .header-carousel .carousel-item img {
+    width: auto; /* Ensure images maintain aspect ratio */
+    max-height: 300px; /* Limit maximum height */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 24px; /* Adjust further for very small screens */
+  }
+
+  .header-description {
+    font-size: 14px;
+  }
+
+  .btn.primary-btn {
+    padding: 6px 12px;
+    font-size: 12px; /* Adjust further for very small screens */
+  }
+
+  .header-carousel .carousel-item img {
+    max-height: 200px; /* Limit maximum height on very small screens */
+  }
+}
+
+/* Program tahunan */
+.program-tahunan-section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.program-title {
+  background: linear-gradient(90deg, #0066ff, #00ccff);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  font-size: 2.25rem; /* Adjust as needed */
+  margin-bottom: 30px;
+}
+
+.title-underline {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #00ccff;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+.program-title-text {
+  font-size: 1.125rem; /* Adjust size as needed */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.program-link {
+  color: #0066ff; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+.program-link:hover {
+  color: #00ccff;
+  text-decoration: underline;
+}
+
 .half-width-testimonial .owl-carousel .owl-stage-outer {
   padding: 0 2px 2px;
 }
@@ -785,6 +975,67 @@ body::-webkit-scrollbar {
     font-size: 1.5rem; /* Reduce number size on mobile */
   }
 }
+/* Unit Section */
+.unit-section {
+  background-color: transparent;
+  padding: 30px 0;
+}
+
+.unit-container {
+  display: flex;
+  justify-content: space-around; /* Evenly space items */
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  overflow-x: auto; /* Enable horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.unit-card {
+  text-align: center;
+  margin: 10px; /* Space between items */
+}
+
+.unit-logo {
+  width: 150px; /* Standard width for larger screens */
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.unit-logo:hover {
+  transform: scale(1.05);
+}
+
+.unit-name {
+  font-size: 20px;
+  color: #0056b3;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+  .unit-logo {
+    width: 120px; /* Adjust width for mobile */
+  }
+
+  .unit-name {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  .unit-container {
+    flex-direction: row; /* Ensure horizontal layout */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap to each item on scroll */
+  }
+
+  .unit-card {
+    scroll-snap-align: start; /* Snap alignment */
+    flex: 0 0 auto; /* Prevent shrinking */
+    margin: 10px; /* Ensure proper spacing */
+  }
+}
 
 /* Animations for numbers */
 .mission-number:nth-child(1) {
@@ -850,7 +1101,7 @@ body::-webkit-scrollbar {
   height: auto;
   object-fit: cover;
   transition: filter 0.3s ease, transform 0.3s ease;
-  filter: brightness(0.8);
+  filter: brightness(1);
 }
 
 .card-body {
