@@ -48,47 +48,37 @@ window.addEventListener('scroll', function() {
   }
 });
 
-$('.manual-carousel').owlCarousel({
-    loop: true,
-    margin: 5, // Jarak antar item
-    nav: false, // Navigasi
-    responsive: {
-        0: {
-            items: 3, // Tampilkan 3 gambar pada layar kecil
-            margin: 5 // Jarak antar gambar pada layar kecil
-        },
-        600: {
-            items: 3, // Tampilkan 3 gambar pada layar medium
-            margin: 10 // Jarak antar gambar pada layar medium
-        },
-        768: {
-            items: 3, // Tampilkan 3 gambar pada layar besar
-            margin: 15 // Jarak antar gambar pada layar besar
-        }
-    }
-});
- 
+// ekstrakulikuler
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.ekstra-carousel').owlCarousel({
     loop: true,
-    margin: 0,
+    margin: 10,
     nav: true,
-    items: 1,
-    navText: ['<', '>'],
-    dots: false,
+    dots: true,
     responsive: {
       0: {
-        items: 1
+        items: 2
       },
       768: {
-        items: 1
-      },
-      992: {
-        items: 1
+        items: 3
       }
     }
   });
 });
+
+$(document).ready(function(){
+  $(".unique-header-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    items: 1, // Ensure only one item is shown at a time
+    dots: true, // Ensure pagination is active
+  });
+});
+
+
 
 // 3 items carousel carousel-items-3
  $(".carousel-items-4").owlCarousel({  
@@ -97,7 +87,7 @@ $(document).ready(function(){
      navText: ['<span class="fables-iconarrow-left"></span>','<span class="fables-iconarrow-right"></span>'],
      responsive:{
         0:{
-            items:1 
+            items:1
         },
         600:{
             items:2 

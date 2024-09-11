@@ -48,6 +48,25 @@ html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;
 }
+
+#visi-misi {
+  background: linear-gradient(to top, #ffffff, #dbdbdb);
+}
+#karakter {
+  background: linear-gradient(to bottom, #ffffff, #d8d9e9, #ffffff) !important;
+}
+#unit {
+  background: linear-gradient(to bottom, #ffffff, #d8d9e9, #ffffff) !important;
+}
+#ekstrakulikuler {
+  background: linear-gradient(to bottom, #ffffff, #d8d9e9, #ffffff) !important;
+}
+#tahunan {
+  background: linear-gradient(to bottom, #ffffff, #d8d9e9, #ffffff) !important;
+}
+#ua-news {
+  background: linear-gradient(to bottom, #ffffff, #d8d9e9);
+}
 /*************** search icon *********************/
 #search {
   position: fixed;
@@ -492,18 +511,140 @@ body::-webkit-scrollbar {
   display: block; /* Ensure dots are block-level for better alignment */
 }
 
-/* Active Dot */
-.owl-carousel .owl-dot.active span {
-  background-color: #0066ff; /* Different color for active dot */
+/* style Ekstrakulikuler*/
+.ekstra-carousel-section {
+  margin-top: 2rem; /* Adjust as needed */
 }
 
-/* Carousel Styles */
-.owl-carousel .item {
+.ekstra-heading {
+  position: relative;
+  font-size: 36px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.ekstra-heading span {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background-color: #00ccff;
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+.ekstra-carousel .owl-stage {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+/* General Styles for Carousel Items */
+.ekstra-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.ekstra-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.ekstra-card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.ekstra-card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.ekstra-card-title {
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+
+/* Styles for 768px and below */
+@media (max-width: 768px) {
+  .ekstra-heading {
+    font-size: 30px; /* Adjusted heading size for mobile */
+  }
+
+  .ekstra-card-img {
+    max-width: 100%;
+    height: auto; /* Ensure images are not distorted */
+  }
+
+  .ekstra-card-title {
+    font-size: 16px; /* Adjusted text size for mobile */
+  }
+
+  .ekstra-carousel .owl-item {
+    margin: 0 5px; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* Styles for screens 412px and below */
+@media (max-width: 412px) {
+  .ekstra-heading {
+    font-size: 28px; /* Further reduced heading size for very small screens */
+  }
+
+  .ekstra-card-img {
+    max-width: 100%; /* Ensure images fit within container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .ekstra-card-title {
+    font-size: 14px; /* Further reduced text size for very small screens */
+  }
+
+  .ekstra-carousel .owl-item {
+    margin: 0 5px; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* Custom styles for pagination dots */
+.ekstra-carousel .owl-dots {
+  text-align: center; /* Center align dots */
+  margin-top: 15px; /* Adjusted space between dots and carousel */
+}
+
+.ekstra-carousel .owl-dot {
+  display: inline-block; /* Display dots inline */
+  margin: 0 5px; /* Space between dots */
+}
+
+.ekstra-carousel .owl-dot span {
+  background-color: #00ccff; /* Dot color */
+  border-radius: 50%; /* Round dots */
+  width: 12px; /* Dot size */
+  height: 12px; /* Dot size */
+  display: block; /* Ensure dots are block-level for better alignment */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ekstra-carousel .owl-dots {
+    margin-top: 10px; /* Adjust for mobile screens */
+  }
+}
+
+@media (max-width: 412px) {
+  .ekstra-carousel .owl-dots {
+    margin-top: 5px; /* Adjust for very small screens */
+  }
+}
 .owl-carousel .owl-item {
   display: flex;
   justify-content: center;
@@ -562,63 +703,86 @@ body::-webkit-scrollbar {
     height: auto;
   }
 }
-/* Header Styles */
-.header-container {
+/* Unique Header Styles */
+.unique-header-section {
   position: relative;
   background-size: cover;
   background-position: center;
-  padding: 80px 20px; /* Adjust padding for better control */
+  height: 100vh; /* Full screen height */
+  padding: 20px; /* Add some padding around the content */
   color: #fff;
-  text-align: left; /* Align text to the left */
-}
-
-.header-carousel {
+  text-align: left;
   display: flex;
-  justify-content: center; /* Center the carousel horizontally */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
 }
 
-.header-carousel .carousel-item {
+.unique-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.7); /* #333 with 70% transparency */
+  z-index: 1; /* Make sure the overlay is above the image but below content */
+}
+
+.unique-header-container {
+  position: relative;
+  z-index: 2;
+  max-width: 90%; /* Limit the width of the content */
+  padding: 20px; /* Add more padding inside the container */
+}
+
+.unique-header-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.unique-header-carousel .unique-carousel-item {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Align items to the start (left) */
-  text-align: left; /* Align text to the left */
-  padding: 20px; /* Add padding around items for spacing */
-  max-width: 100%; /* Ensure carousel items do not overflow */
-  box-sizing: border-box; /* Include padding in width calculations */
+  justify-content: flex-start;
+  text-align: left;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex: 0 0 auto;
 }
 
-.header-carousel .carousel-item img {
-  max-width: 100%; /* Ensure images fit within the container */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Header Title */
-.header-title {
+.unique-header-title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #ffff00; /* Yellow color for the title */
-  background: linear-gradient(90deg, #0066ff, #00ccff);
-  -webkit-background-clip: text;
-  color: transparent;
+  background: none; /* Remove gradient */
+  color: #ffff00; /* Set to yellow */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  line-height: 1.2; /* Adjust line height for spacing */
+  line-height: 1.2;
 }
 
-/* Highlight Text */
-.highlight-text {
+.owl-carousel .owl-stage-outer {
+  padding-bottom: 0 !important; /* Remove any unwanted padding */
+}
+
+/* Hide Owl Carousel Pagination */
+.owl-carousel .owl-dots {
+  display: none !important;
+}
+
+/* Unique Highlight Text */
+.unique-highlight-text {
   color: #00ccff;
 }
 
-/* Header Description */
-.header-description {
+/* Unique Header Description */
+.unique-header-description {
   font-size: 18px;
   margin-bottom: 30px;
   font-weight: 300;
 }
 
-/* Primary Button */
-.btn.primary-btn {
+/* Unique Primary Button */
+.btn.unique-primary-btn {
   background-color: #00ccff;
   border-color: #00ccff;
   color: #fff;
@@ -626,11 +790,11 @@ body::-webkit-scrollbar {
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 600;
-  display: inline-block; /* Ensure button is inline */
-  margin-top: 20px; /* Add space above the button */
+  display: inline-block;
+  margin-top: 20px;
 }
 
-.btn.primary-btn:hover {
+.btn.unique-primary-btn:hover {
   background-color: #0099cc;
   border-color: #0099cc;
   color: #fff;
@@ -638,45 +802,36 @@ body::-webkit-scrollbar {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .header-title {
+  .unique-header-title {
     font-size: 28px;
   }
 
-  .header-description {
+  .unique-header-description {
     font-size: 16px;
   }
 
-  .btn.primary-btn {
+  .btn.unique-primary-btn {
     padding: 8px 16px;
   }
 
-  .header-carousel .carousel-item {
-    flex-direction: column; /* Stack content vertically on small screens */
-    align-items: center; /* Center content horizontally */
-  }
-
-  .header-carousel .carousel-item img {
-    width: auto; /* Ensure images maintain aspect ratio */
-    max-height: 300px; /* Limit maximum height */
+  .unique-header-carousel .unique-carousel-item {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media (max-width: 576px) {
-  .header-title {
-    font-size: 24px; /* Adjust further for very small screens */
+  .unique-header-title {
+    font-size: 24px;
   }
 
-  .header-description {
+  .unique-header-description {
     font-size: 14px;
   }
 
-  .btn.primary-btn {
+  .btn.unique-primary-btn {
     padding: 6px 12px;
-    font-size: 12px; /* Adjust further for very small screens */
-  }
-
-  .header-carousel .carousel-item img {
-    max-height: 200px; /* Limit maximum height on very small screens */
+    font-size: 12px;
   }
 }
 
@@ -1099,6 +1254,7 @@ body::-webkit-scrollbar {
 .card-img {
   width: 100%;
   height: auto;
+  max-height: 300px;
   object-fit: cover;
   transition: filter 0.3s ease, transform 0.3s ease;
   filter: brightness(1);
@@ -1112,7 +1268,6 @@ body::-webkit-scrollbar {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
-
 .font-14 {
   font-size: 14px;
 }
@@ -1471,7 +1626,7 @@ body::-webkit-scrollbar {
 }
 
 .blog-single-slider .owl-dots {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .form-circle-input {
   width: 47px;

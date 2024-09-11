@@ -38,6 +38,8 @@
     <!-- FABLES CUSTOM CSS RESPONSIVE FILE -->
     <link href="assets/custom/css/custom-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     
      
@@ -171,37 +173,37 @@
  
 <!-- /End Fables Navigation -->  
      
-<!-- Start Header -->
-<div class="fables-header fables-after-overlay bg-rules" style="background-image: url(assets/custom/images/UPACARA\ \(1\).jpg);">
-    <div class="header-container">  
-        <div class="header-carousel owl-carousel owl-theme" data-wow-duration="2s">
-            <div class="carousel-item">
-                <div class="header-content">
-                    <h1 class="header-title" style="color: #ffff00">SIT ULIL ALBAB<br> 
-                        <span class="highlight-text">BE SMART AND RELIGIUS</span>
+<!-- Start Unique Header -->
+<div class="unique-header-section" style="background-image: url(assets/custom/images/UPACARA\ \(1\).jpg);">
+    <div class="unique-header-overlay"></div> <!-- Overlay Div -->
+    <div class="unique-header-container">  
+        <div class="unique-header-carousel owl-carousel owl-theme" data-wow-duration="2s">
+            <div class="unique-carousel-item">
+                <div class="unique-header-content">
+                    <h1 class="unique-header-title">SIT ULIL ALBAB<br> 
+                        <span class="unique-highlight-text">BE SMART AND RELIGIUS</span>
                     </h1>  
-                    <p class="header-description">
+                    <p class="unique-header-description">
                         Lembaga pendidikan islam yang membentuk manusia yang unggul dan akhlak islami.
                     </p>
-                    <a href="form-ppdb.html" class="btn primary-btn">Daftar</a>
+                    <a href="form-ppdb.html" class="btn unique-primary-btn">Daftar</a>
                 </div>
             </div> 
-            <div class="carousel-item">
-                <div class="header-content">
-                    <h1 class="header-title" style="color: #ffff00">SIT ULIL ALBAB <br> 
-                        <span class="highlight-text">MEMBENTUK INSAN CERDAS QUR'ANI</span>
+            <div class="unique-carousel-item">
+                <div class="unique-header-content">
+                    <h1 class="unique-header-title">SIT ULIL ALBAB <br> 
+                        <span class="unique-highlight-text">MEMBENTUK INSAN CERDAS QUR'ANI</span>
                     </h1>  
-                    <p class="header-description">
+                    <p class="unique-header-description">
                         Lembaga pendidikan islam yang membentuk manusia yang unggul dan akhlak islami.
                     </p>
-                    <a href="form-ppdb.html" class="btn primary-btn">Daftar</a>
+                    <a href="form-ppdb.html" class="btn unique-primary-btn">Daftar</a>
                 </div>
             </div> 
         </div>
     </div>
 </div>  
-<!-- /End Header -->
-
+<!-- /End Unique Header -->
 
 
 <!-- Start Visi Misi -->
@@ -247,8 +249,8 @@
 
 
 <!-- Start 7 karakteristik -->
-
-<div class="container gray-background">
+<div class="fables-page-content fables-light-gary-background py-1" id="karakter">
+<div class="container">
     <h2 class="fables-main-text-color font-35 font-weight-bold text-center mt-4 mt-lg-5">7 <span class="fables-second-text-color">Karakteristik</span> Standar </h2>
     <p class=" font-35 text-center mb-4 mb-lg-5">Kelulusan SIT Ulil Albab</p>
     <div class="row mb-0 mb-lg-5 overflow-hidden">
@@ -351,11 +353,11 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- End 7 Karakteristik -->
 
 <!-- Start Unit Section -->
-<section class="unit-section text-center mt-4 mt-lg-5 fables-light-gary-background">
+<section class="unit-section text-center mt-4 mt-lg-5" id="unit">
     <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
         UNIT
         <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: #00ccff; border-radius: 2px; transition: width 0.3s;"></span>
@@ -390,90 +392,100 @@
 <!-- End Unit Section -->
 
 <!-- Start Ekstrakulikuler -->
-<div class="fables-testimonial py-4 py-lg-5 mt-4 mt-lg-5">
+<div class="ekstra-carousel-section py-4 py-lg-5 mt-4 mt-lg-5" id="ekstrakulikuler">
     <div class="container">
         <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
         Ekstrakulikuler
         <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: #00ccff; border-radius: 2px; transition: width 0.3s;"></span>
     </h1>
-        <div class="owl-carousel owl-theme manual-carousel">
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/ekstrakulikuler/nasyid.png" alt="Nasyid" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">NASYID</h3>
+        <div class="ekstra-carousel owl-carousel owl-theme">
+            <!-- Item 1 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/ekstrakulikuler/nasyid.png" alt="Nasyid" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">NASYID</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/ekstrakulikuler/karate.png" alt="Karate" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Karate</h3>
+            <!-- Item 2 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/ekstrakulikuler/karate.png" alt="Karate" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Karate</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/DSCF9403 1.png" alt="Panahan" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Panahan</h3>
+            <!-- Item 3 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/DSCF9403 1.png" alt="Panahan" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Panahan</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/DSCF9403 1.png" alt="Badminton" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Badminton</h3>
+            <!-- Item 4 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/DSCF9403 1.png" alt="Badminton" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Badminton</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/DSCF9403 1.png" alt="Voli" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Voli</h3>
+            <!-- Item 5 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/DSCF9403 1.png" alt="Voli" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Voli</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/ekstrakulikuler/futsal.png" alt="Futsal" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Futsal</h3>
+            <!-- Item 6 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/ekstrakulikuler/futsal.png" alt="Futsal" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Futsal</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/DSCF9403 1.png" alt="Basket" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Basket</h3>
+            <!-- Item 7 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/DSCF9403 1.png" alt="Basket" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Basket</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/DSCF9403 1.png" alt="KIR (Karya Ilmiah Remaja)" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">KIR (Karya Ilmiah Remaja)</h3>
+            <!-- Item 8 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/DSCF9403 1.png" alt="KIR (Karya Ilmiah Remaja)" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">KIR (Karya Ilmiah Remaja)</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/ekstrakulikuler/tarisaman.png" alt="Tari Saman" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Tari Saman</h3>
+            <!-- Item 9 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/ekstrakulikuler/tarisaman.png" alt="Tari Saman" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Tari Saman</h3>
                     </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="card">
-                    <img src="assets/custom/images/ekstrakulikuler/pramuka.png" alt="Pramuka" class="card-img">
-                    <div class="card-body">
-                        <h3 class="font-14 semi-font">Pramuka</h3>
+            <!-- Item 10 -->
+            <div class="ekstra-item">
+                <div class="ekstra-card">
+                    <img src="assets/custom/images/ekstrakulikuler/pramuka.png" alt="Pramuka" class="ekstra-card-img">
+                    <div class="ekstra-card-body">
+                        <h3 class="ekstra-card-title">Pramuka</h3>
                     </div>
                 </div>
             </div>
@@ -481,12 +493,13 @@
         <!-- Navigation buttons -->
         <button class="owl-prev"><i class="fa fa-chevron-left"></i></button>
         <button class="owl-next"><i class="fa fa-chevron-right"></i></button>
+        <div class="owl-dots-custom"></div>
     </div>
 </div>
 <!-- End Ekstrakulikuler -->
     
 <!-- Start Program Tahunan -->
-<div class="program-tahunan-section py-5 fables-light-gary-background">
+<div class="program-tahunan-section py-5 fables-light-gary-background" id="tahunan">
     <div class="container">
         <h1 class="text-center program-title">
             Program Tahunan
@@ -984,6 +997,8 @@
 <script src="assets/vendor/loadscreen/js/ju-loading-screen.js"></script>
 <script src="assets/vendor/fancybox-master/jquery.fancybox.min.js"></script>
 <script src="assets/custom/js/custom.js"></script>  
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  
 </body>
 </html>
