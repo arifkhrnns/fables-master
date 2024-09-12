@@ -204,16 +204,6 @@
   }
 }
 
-/* Ensure the news container is responsive for UA News */
-@media (max-width: 576px) {
-  .font-18 {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-  }
-  .font-13 {
-    font-size: 0.875rem; /* Adjust font size for smaller screens */
-  }
-}
-
 /* Ensure the news container is responsive for Ekskul */
 /* Adjustments for screens smaller than 768px */
 @media (max-width: 768px) {

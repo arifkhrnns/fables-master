@@ -55,6 +55,7 @@ $(document).ready(function(){
     margin: 10,
     nav: true,
     dots: true,
+    smartSpeed: 500,
     responsive: {
       0: {
         items: 2
@@ -66,6 +67,7 @@ $(document).ready(function(){
   });
 });
 
+// Header
 $(document).ready(function(){
   $(".unique-header-carousel").owlCarousel({
     loop: true,
@@ -76,6 +78,37 @@ $(document).ready(function(){
     items: 1, // Ensure only one item is shown at a time
     dots: true, // Ensure pagination is active
   });
+});
+
+// unit
+function changeUnit(logoSrc, title, description) {
+    console.log("Function triggered");  // Debug line to check function execution
+    console.log("Logo Source: " + logoSrc); // Check if the logo source is correct
+    console.log("Title: " + title); // Check if the title is correct
+    console.log("Description: " + description); // Check if the description is correct
+
+    // Get the elements that need to be updated
+    const unitLogoLeft = document.querySelector('.unit-logo-left');
+    const unitTitle = document.querySelector('.unit-title');
+    const unitDescription = document.querySelector('.unit-description');
+
+    // Update the content dynamically
+    unitLogoLeft.src = logoSrc;
+    unitLogoLeft.alt = title + " Logo"; // Set new alt text
+    unitTitle.textContent = title; // Update the title
+    unitDescription.textContent = description; // Update the description
+}
+
+document.querySelectorAll('.unit-card').forEach(button => {
+    button.addEventListener('click', function() {
+        const logoSrc = this.getAttribute('data-logo');
+        const title = this.getAttribute('data-title');
+        const description = this.getAttribute('data-description');
+
+        console.log("Button clicked: ", title);  // Debugging
+
+        changeUnit(logoSrc, title, description);
+    });
 });
 
 

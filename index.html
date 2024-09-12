@@ -243,13 +243,16 @@
             </p>
         </div>
     </div>
+    
+    <!-- SVG Background Wave -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -12px;" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,256L26.7,250.7C53.3,245,107,235,160,234.7C213.3,235,267,245,320,245.3C373.3,245,427,235,480,218.7C533.3,203,587,181,640,165.3C693.3,149,747,139,800,160C853.3,181,907,235,960,256C1013.3,277,1067,267,1120,240C1173.3,213,1227,171,1280,154.7C1333.3,139,1387,149,1413,154.7L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+    <!-- End SVG Background Wave -->
+    
 </div>
-<div style="margin-bottom: 50px;"></div>
 <!-- End Visi Misi -->
 
-
 <!-- Start 7 karakteristik -->
-<div class="fables-page-content fables-light-gary-background py-1" id="karakter">
+<div class="fables-page-content py-1" style="background-color: #f3f4f5;" id="karakter">
 <div class="container">
     <h2 class="fables-main-text-color font-35 font-weight-bold text-center mt-4 mt-lg-5">7 <span class="fables-second-text-color">Karakteristik</span> Standar </h2>
     <p class=" font-35 text-center mb-4 mb-lg-5">Kelulusan SIT Ulil Albab</p>
@@ -353,46 +356,62 @@
         </div>
     </div>
 </div>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -10px;" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L24,96C48,128,96,192,144,197.3C192,203,240,149,288,117.3C336,85,384,75,432,85.3C480,96,528,128,576,122.7C624,117,672,75,720,80C768,85,816,139,864,160C912,181,960,171,1008,138.7C1056,107,1104,53,1152,32C1200,11,1248,21,1296,42.7C1344,64,1392,96,1416,112L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
 </div>
 <!-- End 7 Karakteristik -->
 
-<!-- Start Unit Section -->
-<section class="unit-section text-center mt-4 mt-lg-5" id="unit">
-    <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
-        UNIT
-        <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: #00ccff; border-radius: 2px; transition: width 0.3s;"></span>
-    </h1>
+
+<!-- Start Unit -->
+<section class="unit-section text-center mt-lg-10" id="unit">
+    <h2 class="fables-main-text-color font-35 font-weight-bold text-center mt-4 mt-lg-5">
+        <span class="fables-second-text-color">Unit</span>
+    </h2>
+    <p class="font-35 text-center mb-4 mb-lg-5">SIT Ulil Albab</p>
 
     <div class="unit-container mt-4">
-        <!-- TK Unit -->
-        <div class="unit-card">
-            <img src="assets/custom/images/logo_tk.jpg" alt="TK Logo" class="unit-logo">
-            <p class="unit-name">TK</p>
+        <!-- Left section for displaying unit details -->
+        <div class="unit-left">
+            <div id="unit-content">
+                <img src="assets/custom/images/logo_tk.jpg" alt="Default Unit" class="unit-logo-left">
+                <h3 class="unit-title">TKIT Ulil Albab</h3>
+                <p class="unit-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Sed tincidunt, erat id tincidunt varius, nisi odio gravida mauris, ac tincidunt massa dolor sed magna.</p>
+            </div>
         </div>
 
-        <!-- SD Unit -->
-        <div class="unit-card">
-            <img src="assets/custom/images/logo_sd.png" alt="SD Logo" class="unit-logo">
-            <p class="unit-name">SD</p>
-        </div>
+        <!-- Right section for unit buttons -->
+        <div class="unit-right">
+            <!-- TK Unit -->
+            <button class="unit-card" data-logo="assets/custom/images/logo_tk.jpg" data-title="TKIT Ulil Albab" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Sed tincidunt, erat id tincidunt varius, nisi odio gravida mauris, ac tincidunt massa dolor sed magna.">
+                <img src="assets/custom/images/logo_tk.jpg" alt="TK Logo" class="unit-logo">
+                <p class="unit-name">TK</p>
+            </button>
 
-        <!-- SMP Unit -->
-        <div class="unit-card">
-            <img src="assets/custom/images/logo_smp.png" alt="SMP Logo" class="unit-logo">
-            <p class="unit-name">SMP</p>
-        </div>
+            <!-- SD Unit -->
+            <button class="unit-card" data-logo="assets/custom/images/logo_sd.png" data-title="SDIT Ulil Albab" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Sed tincidunt, erat id tincidunt varius, nisi odio gravida mauris, ac tincidunt massa dolor sed magna.">
+                <img src="assets/custom/images/logo_sd.png" alt="SD Logo" class="unit-logo">
+                <p class="unit-name">SD</p>
+            </button>
 
-        <!-- SMA Unit -->
-        <div class="unit-card">
-            <img src="assets/custom/images/logo_sma.png" alt="SMA Logo" class="unit-logo">
-            <p class="unit-name">SMA</p>
+            <!-- SMP Unit -->
+            <button class="unit-card" data-logo="assets/custom/images/logo_smp.png" data-title="SMPIT Ulil Albab" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Sed tincidunt, erat id tincidunt varius, nisi odio gravida mauris, ac tincidunt massa dolor sed magna.">
+                <img src="assets/custom/images/logo_smp.png" alt="SMP Logo" class="unit-logo">
+                <p class="unit-name">SMP</p>
+            </button>
+
+            <!-- SMA Unit -->
+            <button class="unit-card" data-logo="assets/custom/images/logo_sma.png" data-title="SMAIT Ulil Albab" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Sed tincidunt, erat id tincidunt varius, nisi odio gravida mauris, ac tincidunt massa dolor sed magna.">
+                <img src="assets/custom/images/logo_sma.png" alt="SMA Logo" class="unit-logo">
+                <p class="unit-name">SMA</p>
+            </button>
         </div>
     </div>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -40px;" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L20,144C40,160,80,192,120,208C160,224,200,224,240,240C280,256,320,288,360,250.7C400,213,440,107,480,85.3C520,64,560,128,600,176C640,224,680,256,720,272C760,288,800,288,840,288C880,288,920,288,960,250.7C1000,213,1040,139,1080,128C1120,117,1160,171,1200,165.3C1240,160,1280,96,1320,69.3C1360,43,1400,53,1420,58.7L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
 </section>
-<!-- End Unit Section -->
+<!-- End Unit -->
+
 
 <!-- Start Ekstrakulikuler -->
-<div class="ekstra-carousel-section py-4 py-lg-5 mt-4 mt-lg-5" id="ekstrakulikuler">
+<div class="ekstra-carousel-section py-5" style="background-color: #f3f4f5;" id="ekstrakulikuler">
     <div class="container">
         <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
         Ekstrakulikuler
@@ -495,93 +514,97 @@
         <button class="owl-next"><i class="fa fa-chevron-right"></i></button>
         <div class="owl-dots-custom"></div>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -60px;" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L26.7,250.7C53.3,245,107,235,160,234.7C213.3,235,267,245,320,245.3C373.3,245,427,235,480,218.7C533.3,203,587,181,640,165.3C693.3,149,747,139,800,160C853.3,181,907,235,960,256C1013.3,277,1067,267,1120,240C1173.3,213,1227,171,1280,154.7C1333.3,139,1387,149,1413,154.7L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
 </div>
 <!-- End Ekstrakulikuler -->
     
 <!-- Start Program Tahunan -->
-<div class="program-tahunan-section py-5 fables-light-gary-background" id="tahunan">
+<div class="program-tahunan-container" id="program-tahunan">
     <div class="container">
-        <h1 class="text-center program-title">
-            Program Tahunan
-            <span class="title-underline"></span>
-        </h1>
-        <div class="row">
+        <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
+        Program Tahunan
+        <span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 4px; background-color: #00ccff; border-radius: 2px; transition: width 0.3s;"></span>
+    </h1>
+        <div class="row-tahunan">
             <!-- Program 1 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/IMG_0144.jpg" alt="Kunjungan Edukasi" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/IMG_0144.jpg" alt="Kunjungan Edukasi" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Kunjungan Edukasi</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Kunjungan Edukasi</a>
                 </h2>
             </div>
             <!-- Program 2 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/DSCF4075.JPG" alt="Qur'an Camp" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/DSCF4075.JPG" alt="Qur'an Camp" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Qur'an Camp</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Qur'an Camp</a>
                 </h2>
             </div>
             <!-- Program 3 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/DSCF2350.JPG" alt="Khotaman & Imtihan Al-Quran" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/DSCF2350.JPG" alt="Khotaman & Imtihan Al-Quran" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Khotaman & Imtihan Al-Quran</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Khotaman & Imtihan Al-Quran</a>
                 </h2>
             </div>
             <!-- Program 4 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/Market Day SDIT 2023 (58).jpg" alt="Entrepreneurship Day" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/Market Day SDIT 2023 (58).jpg" alt="Entrepreneurship Day" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Entrepreneurship Day</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Entrepreneurship Day</a>
                 </h2>
             </div>
             <!-- Program 5 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/DSCF7459.JPG" alt="Malam Bina Iman & Taqwa" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/DSCF7459.JPG" alt="Malam Bina Iman & Taqwa" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Malam Bina Iman & Taqwa</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Malam Bina Iman & Taqwa</a>
                 </h2>
             </div>
             <!-- Program 6 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/DSCF5855.JPG" alt="Study Campus" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/DSCF5855.JPG" alt="Study Campus" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Study Campus</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Study Campus</a>
                 </h2>
             </div>
             <!-- Program 7 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/DSCF0309.JPG" alt="Ekspedisi Sosial" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/DSCF0309.JPG" alt="Ekspedisi Sosial" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Ekspedisi Sosial</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Ekspedisi Sosial</a>
                 </h2>
             </div>
             <!-- Program 8 -->
-            <div class="col-12 col-sm-6 col-md-4 mb-4">
-                <div class="image-container">
-                    <a href="#"><img src="assets/custom/images/totr.jpg" alt="Takjil on the Road & I'tikaf Ramadhan" class="img-fluid rounded shadow"></a>
+            <div class="tahunan-col-12 col-sm-6 col-md-4 mb-4">
+                <div class="program-image-wrapper">
+                    <a href="#"><img src="assets/custom/images/totr.jpg" alt="Takjil on the Road & I'tikaf Ramadhan" class="program-image"></a>
                 </div>
-                <h2 class="program-title-text">
-                    <a href="#" class="program-link">Takjil on the Road & I'tikaf Ramadhan</a>
+                <h2 class="program-item-title">
+                    <a href="#" class="program-item-link">Takjil on the Road & I'tikaf Ramadhan</a>
                 </h2>
             </div>
         </div>
     </div>
+<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -60px;" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L20,144C40,160,80,192,120,208C160,224,200,224,240,240C280,256,320,288,360,250.7C400,213,440,107,480,85.3C520,64,560,128,600,176C640,224,680,256,720,272C760,288,800,288,840,288C880,288,920,288,960,250.7C1000,213,1040,139,1080,128C1120,117,1160,171,1200,165.3C1240,160,1280,96,1320,69.3C1360,43,1400,53,1420,58.7L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
 </div>
 <!-- End Program Tahunan -->
+
+
         
        <!-- <div class="container-fluid overflow-hidden">
            <div class="row mt-0 mt-lg-5">
@@ -803,10 +826,10 @@
 
 
 <!-- Start UA NEWS -->
-<div class="fables-page-content" id="ua-news">  
+<div class="fables-page-content" style=" background-color: #f3f4f5;" id="ua-news">  
 <div class="container" >
-    <div class="row">
-        <div class="col-12">
+    <div class="row-news">
+        <div class="col-12-news">
             <a href="blog-cat-masonry.html"> 
                 <h1 class="text-center fables-main-text-color font-36 my-4 my-lg-5" style="background: linear-gradient(90deg, #0066ff, #00ccff); -webkit-background-clip: text; color: transparent; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); font-family: 'Montserrat', sans-serif; position: relative;">
         UA News
@@ -818,9 +841,9 @@
 
         
         <!-- News Item 1 -->
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
-            <div class="position-relative"> 
-                <div class="image-container translate-effect-right">
+        <div class="col-12-news col-sm-6-news col-md-4-news mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
+            <div class="position-relative-news"> 
+                <div class="image-container-news translate-effect-right">
                     <a href="anbk.html">
                         <img src="assets/custom/images/anbk/img1.png" alt="" class="img-fluid w-100">
                     </a> 
@@ -829,22 +852,22 @@
                         <span class="month d-block">September</span>
                     </span>
                 </div> 
-                <h2 class="font-18 my-3">
+                <h2 class="font-18-news my-3">
                     <a href="anbk.html" class="fables-main-text-color fables-second-hover-color">ANBK Mengukur Mutu Sekolah</a>
                 </h2>
-                <p class="fables-forth-text-color font-13 mb-2 text-justify">
+                <p class="font-13-news mb-2 text-justify">
                     Dahulu, kita mengenal istilah Ujian Nasional (UN) yaitu ujian tertulis bagi siswa-siswi tingkat akhir setiap jenjang Pendidikan, mulai dari SD, SMP, SMA dan sederajat.
                 </p>
-                <a href="supervisi.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">
+                <a href="supervisi.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15-news border-0">
                     Baca Penuh <i class="fas fa-long-arrow-alt-right"></i>
                 </a> 
             </div> 
         </div>
 
         <!-- News Item 2 -->
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
-            <div class="position-relative"> 
-                <div class="image-container translate-effect-right">
+        <div class="col-12-news col-sm-6-news col-md-4-news mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
+            <div class="position-relative-news"> 
+                <div class="image-container-news translate-effect-right">
                     <a href="supervisi.html">
                         <img src="assets/custom/images/supervisi/img2.png" alt="" class="img-fluid w-100">
                     </a> 
@@ -853,22 +876,22 @@
                         <span class="month d-block">September</span>
                     </span>
                 </div> 
-                <h2 class="font-18 my-3">
+                <h2 class="font-18-news my-3">
                     <a href="supervisi.html" class="fables-main-text-color fables-second-hover-color">Supervisi untuk Menjaga Mutu Pembelajaran</a>
                 </h2>
-                <p class="fables-forth-text-color font-13 mb-2 text-justify">
+                <p class="font-13-news mb-2 text-justify">
                     Sebagai lembaga pendidikan yang menerapkan metode UMMI dalam pembelajaran Al Qur'an, maka SIT Ulil Albab  terus berkoordinasi dengan pengurus UMMI Bekasi Raya.
                 </p>
-                <a href="supervisi.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">
+                <a href="supervisi.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15-news border-0">
                     Baca Penuh <i class="fas fa-long-arrow-alt-right"></i>
                 </a> 
             </div> 
         </div>
 
         <!-- News Item 3 -->
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
-            <div class="position-relative"> 
-                <div class="image-container translate-effect-right">
+        <div class="col-12-news col-sm-6-news col-md-4-news mb-4 mb-lg-5 wow fadeIn" data-wow-delay=".3s">
+            <div class="position-relative-news"> 
+                <div class="image-container-news translate-effect-right">
                     <a href="upacara17.html">
                         <img src="assets/custom/images/Upacara 17/UPACARA HUT RI 2024-60.png" alt="" class="img-fluid w-100">
                     </a> 
@@ -877,13 +900,13 @@
                         <span class="month d-block">Agustus</span>
                     </span>
                 </div> 
-                <h2 class="font-18 my-3">
+                <h2 class="font-18-news my-3">
                     <a href="upacara17.html" class="fables-main-text-color fables-second-hover-color">Upacara Kemerdekaan 17 Agustus</a>
                 </h2>
-                <p class="fables-forth-text-color font-13 mb-2 text-justify">
+                <p class="font-13-news mb-2 text-justify">
                     Sekolah Islam Terpadu Ulil Albab melaksanakan upacara pengibaran bendera merah putih dalam rangka memperingati hari kemerdekaan Repulik Indonesia yang ke 79.
                 </p>
-                <a href="upacara17.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15 border-0">
+                <a href="upacara17.html" class="btn fables-second-text-color fables-main-hover-color p-0 font-15-news border-0">
                     Baca Penuh <i class="fas fa-long-arrow-alt-right"></i>
                 </a> 
             </div> 
