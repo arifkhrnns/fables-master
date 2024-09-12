@@ -52,6 +52,66 @@ body::-webkit-scrollbar {
 #visi-misi {
   background: linear-gradient(to top, #ffffff, #dbdbdb);
 }
+
+/*Start WA-Icon*/
+/* Base styles for the WhatsApp button */
+.whatsapp-button {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  padding: 10px;
+  border-radius: 35px;
+  text-decoration: none;
+}
+
+.whatsapp-button span {
+  font-size: 16px;
+  color: black;
+  margin-right: 10px;
+}
+
+.whatsapp-button img {
+  height: 48px;
+  width: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    padding: 8px;
+  }
+
+  .whatsapp-button span {
+    font-size: 14px;
+  }
+
+  .whatsapp-button img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsapp-button {
+    right: 10px;
+    bottom: 20px;
+    padding: 6px;
+  }
+
+  .whatsapp-button span {
+    font-size: 12px;
+    margin-right: 8px;
+  }
+
+  .whatsapp-button img {
+    height: 36px;
+  }
+}
+
+/*End WA-Icon*/
 /*************** search icon *********************/
 #search {
   position: fixed;
