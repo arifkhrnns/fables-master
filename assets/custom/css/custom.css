@@ -3049,7 +3049,7 @@ body::-webkit-scrollbar {
   position: relative;
 }
 .fables-background-link:hover {
-  color: #e54d42;
+  color: rgba(30, 87, 153, 1) 100%
 }
 .fables-background-link:hover:after {
   opacity: 0;
@@ -3058,8 +3058,8 @@ body::-webkit-scrollbar {
 .fables-background-link::after {
   position: absolute;
   content: "";
-  background-color: #e54d42;
-  border: 2px solid #e54d42;
+  background-color: rgba(30, 87, 153, 1) 100%;
+  border: 2px solid rgba(30, 87, 153, 1) 100%;
   left: 0;
   right: 0;
   border-radius: 30px;
