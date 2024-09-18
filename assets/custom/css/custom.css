@@ -1435,8 +1435,364 @@ body::-webkit-scrollbar {
   font-size: 12px;
   margin-top: -2px;
 }
-
 /* End UA-News */
+
+/* Unique PPDB Navigation Styling */
+.fables-navigation-ppdb {
+  background-color: #003366; /* Main background color (customizable) */
+  padding: 5px 0;
+  margin-top: -10px; /* Negative margin to move the nav higher */
+  position: relative;
+  z-index: 10;
+}
+
+.fables-navigation-ppdb .navbar {
+  padding: 0;
+}
+
+.fables-navigation-ppdb .navbar-brand img {
+  max-width: 120px; /* Adjust the logo size */
+}
+
+.fables-nav-ppdb {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-item-ppdb {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-link-ppdb {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff; /* White text */
+  text-transform: uppercase;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link-ppdb:hover {
+  color: #ffd700; /* Hover color (gold) */
+}
+
+/* Toggler Button */
+.navbar-toggler-ppdb {
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.navbar-toggler-ppdb:focus {
+  outline: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .fables-navigation-ppdb .navbar-brand img {
+    max-width: 100px;
+  }
+
+  .navbar-nav-ppdb {
+    display: block;
+    text-align: left;
+  }
+
+  .nav-item-ppdb {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .nav-link-ppdb {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .navbar-toggler-ppdb {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+/* Additional Styles for Better Spacing */
+@media (min-width: 769px) {
+  .fables-navigation-ppdb .navbar-nav-ppdb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-item-ppdb {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+/* Customizing Button Spacing */
+.fables-navigation-ppdb .navbar-toggler-ppdb {
+  margin-left: 15px;
+}
+
+/* End nav PPDB*/
+
+/* ----Start banner PPDB---- */
+/* PPDB Banner Section */
+.ppdb-header-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  height: 100vh; /* Set to full screen height */
+  width: 100vw; /* Set to full screen width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ppdb-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a dark overlay */
+}
+
+.ppdb-header-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.ppdb-header-title {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ppdb-highlight-text {
+  color: #ffd700; /* Highlight color (yellow) */
+}
+
+.ppdb-header-description {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ppdb-primary-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ppdb-primary-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .ppdb-header-section {
+    padding: 60px 0; /* Reduce padding for mobile */
+    height: auto; /* Allow banner to be responsive on mobile */
+  }
+  .ppdb-header-title {
+    font-size: 32px;
+  }
+  .ppdb-header-description {
+    font-size: 18px;
+  }
+  .ppdb-primary-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+.ppdb-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ppdb-subtitle {
+  font-size: 20px;
+}
+
+/* PPDB Information Section */
+.ppdb-info {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.ppdb-section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.ppdb-info-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ppdb-info-item {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.ppdb-info-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* PPDB Registration Steps Section */
+.ppdb-steps {
+  padding: 50px 0;
+  background-color: #e0e8f0;
+}
+
+.ppdb-step-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ppdb-step-item {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.step-number {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* PPDB Contact Section */
+.ppdb-contact {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.ppdb-contact-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ppdb-whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ppdb-info-grid,
+  .ppdb-step-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ppdb-title {
+    font-size: 36px;
+  }
+
+  .ppdb-section-title {
+    font-size: 28px;
+  }
+}
+/* ----End PPDB---- */
+
+.institusi-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.institusi-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.institusi-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.institusi-image img {
+  width: 80px; /* Smaller logo size */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.institusi-content h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.institusi-content p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.visi-misi-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.visi-misi-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .institusi-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .institusi-card {
+    width: 100%;
+  }
+}
 
 /* Animations for numbers */
 .mission-number:nth-child(1) {
@@ -3196,10 +3552,10 @@ body::-webkit-scrollbar {
   background-color: inherit;
 }
 .table-block {
-  border-top: 1px solid #ecf0f1;
-  border-right: 1px solid #ecf0f1;
-  border-left: 1px solid #ecf0f1;
-  border-bottom: 3px solid #ecf0f1;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 3px solid #cccccc;
   transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
   -webkit-transition: all ease-in-out 0.3s;
@@ -3221,7 +3577,7 @@ body::-webkit-scrollbar {
   position: absolute;
   height: 30px;
   width: 1px;
-  background-color: #dddddd;
+  background-color: #d8cbcb;
   right: -16px;
 }
 .work-icon:last-child:after {
