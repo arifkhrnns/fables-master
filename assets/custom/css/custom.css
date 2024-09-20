@@ -322,14 +322,14 @@ body::-webkit-scrollbar {
   color: #2c3e4f !important;
 }
 .fables-header {
-  padding: 50px 0;
-  background-image: url(../images/DSCF9424\ 1.png);
+  padding: 100px 0;
+  background-image: url(../images/bg-blog.png);
 }
 .bg-blog-details {
   padding: 50px 0;
-  background-image: url(../images/DSCF9424\ 1.png);
+  background-image: url(../images/bg-blog.png);
   padding: 50px 0;
-  background-image: url(../images/bg-blog.jpg);
+  background-image: url(../images/bg-blog.png);
 }
 .fables-after-overlay {
   position: relative;
@@ -2784,7 +2784,7 @@ body::-webkit-scrollbar {
   font-size: 20px;
 }
 .fables-footer-image {
-  background-image: url(../images/DSCF9403\ 1.png);
+  background-image: url(../images/bg-blog.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3049,7 +3049,7 @@ body::-webkit-scrollbar {
   position: relative;
 }
 .fables-background-link:hover {
-  color: #e54d42;
+  color: rgba(30, 87, 153, 1) 100%
 }
 .fables-background-link:hover:after {
   opacity: 0;
@@ -3058,8 +3058,8 @@ body::-webkit-scrollbar {
 .fables-background-link::after {
   position: absolute;
   content: "";
-  background-color: #e54d42;
-  border: 2px solid #e54d42;
+  background-color: rgba(30, 87, 153, 1) 100%;
+  border: 2px solid rgba(30, 87, 153, 1) 100%;
   left: 0;
   right: 0;
   border-radius: 30px;
@@ -4846,4 +4846,22 @@ a.toggle-menu {
 }
 .image-karakter {
   size: 1px;
+}
+
+/* Gaya untuk mengatur tombol ke tengah */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* opsional, jika ingin ada jarak */
+  margin-bottom: 20px;
+}
+
+.button-container a {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Warna tombol */
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
 }
