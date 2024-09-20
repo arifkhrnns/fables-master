@@ -1768,7 +1768,7 @@ body::-webkit-scrollbar {
   margin-bottom: 15px;
 }
 
-.visi-misi-btn {
+.brosur-btn {
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
@@ -1780,7 +1780,7 @@ body::-webkit-scrollbar {
   transition: background-color 0.3s ease;
 }
 
-.visi-misi-btn:hover {
+.brosur-btn:hover {
   background-color: #0056b3;
 }
 
