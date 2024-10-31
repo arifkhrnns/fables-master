@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Pusatkan secara horizontal */
+            align-items: center; /* Pusatkan secara vertikal */
+            height: 100vh; /* Tinggi penuh viewport */
+        }
+        .card {
+            background-image: url('assets/custom/images/wallpaper_bio.png');
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%; /* Agar bisa responsif */
+        }
+        .profile-img-container {
+            margin: 0 auto 15px; /* Mengatur margin untuk tengah */
+            overflow: hidden; /* Sembunyikan bagian gambar yang keluar dari lingkaran */
+            border-radius: 50%; /* Membuat lingkaran */
+            width: 120px; /* Ukuran lingkaran untuk desktop */
+            height: 120px; /* Ukuran lingkaran untuk desktop */
+            position: relative; /* Posisi relatif untuk mengatur gambar */
+        }
+        .profile-img {
+            width: 100%; /* Ambil 100% dari kontainer */
+            height: auto; /* Biarkan tinggi otomatis untuk mempertahankan rasio */
+            object-fit: cover; /* Mengisi kontainer tanpa distorsi */
+            object-position: 50% 50%; /* Posisikan gambar di tengah */
+            border: 2px solid #555; /* Border gambar */
+            filter: grayscale(100%); /* Mengubah gambar menjadi hitam putih */
+        }
+        h2 {
+            color: #555; /* Ubah menjadi abu-abu */
+            margin: 10px 0;
+        }
+        p {
+            color: #555; /* Ubah menjadi abu-abu */
+            margin: 5px 0;
+        }
+        .contact-info a {
+            display: block;
+            color: #555; /* Ubah menjadi abu-abu */
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .signature {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border-top: 2px solid #525252;
+            padding-top: 10px;
+            position: relative;
+        }
+        .signature img {
+            width: 150px; /* Adjust width as needed */
+            margin-top: -30px;
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .signature-name {
+            margin-top: 30px;
+            color: #555; /* Ubah menjadi abu-abu */
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .card {
+                padding: 15px;
+                max-width: 90%;
+            }
+            .profile-img-container {
+                width: 100px; /* Ukuran lingkaran lebih besar untuk mobile */
+                height: 100px; /* Ukuran lingkaran lebih besar untuk mobile */
+            }
+            .profile-img {
+                width: 100%; /* Ambil 100% dari kontainer */
+                height: auto; /* Biarkan tinggi otomatis untuk mempertahankan rasio */
+            }
+            .signature img {
+                width: 120px; /* Adjust for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="profile-img-container">
+        <img src="assets/custom/images/Picsart_22-09-01_11-59-41-227.jpg" alt="Profile Image" class="profile-img">
+    </div>
+    <h2>MUHAMMAD RIZQI MAULANA</h2>
+    <p><b>- 312210360 -</b></p>
+    <p>MAHASISWA - UNIVERSITAS PELITA BANGSA</p>
+    <p>4 Oktober 2001</p> <!-- Ganti dengan tanggal lahir Anda -->
+    <p>Taman Wanasari Indah, Blok C4 No.8, RT/RW 11/08, Kelurahan Wanasari, Kecamatan Cibitung, Kabupaten Bekasi</p> <!-- Ganti dengan alamat Anda -->
+    <div class="contact-info">
+        <a href="tel:+628817597553">📞 +62 881 759 7553</a>
+        <a href="mailto:mrizqim01@gmail.com">📧 mrizqim01@gmail.com</a>
+    </div>
+    <div class="signature">
+        <img src="assets/custom/images/IMG_20241031_110020-removebg-preview.png" alt="Tanda Tangan"> <!-- Ganti dengan file tanda tangan Anda -->
+        <div class="signature-name">[MUHAMMAD RIZQI MAULANA]</div> <!-- Nama di bawah tanda tangan -->
+    </div>
+</div>
+
+</body>
+</html>
