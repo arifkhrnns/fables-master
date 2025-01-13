@@ -328,22 +328,86 @@
     </div>
 </div> 
 
-<ul class="news-list">
-    <li class="news-item">
-        <h3><a href="its.html">ITS</a></h3>
-        <br>
-        <h3><a href="unbraw.html">Universitas Brawijaya</a></h3>
-        <br>
-        <h3><a href="museumangkot.html">Museum Angkot</a></h3>
-        <br>
-        <h3><a href="bromo.html">Bromo</a></h3>
-        
+<style>
+    .highlighted-list {
+        list-style-type: none;
+        margin: 20px auto; /* Tambahkan margin atas dan bawah */
+        padding: 0;
+        max-width: 600px; /* Membatasi lebar untuk tata letak responsif */
+        text-align: center;
+    }
+
+    .highlighted-list .list-item {
+        margin: 30px 0; /* Margin atas dan bawah pada setiap item */
+        background-color: #f0f8ff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .highlighted-list .list-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .highlighted-list .list-item a {
+        display: block;
+        padding: 15px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #003366;
+        text-decoration: none;
+    }
+
+    .highlighted-list .list-item a:hover {
+        background-color: #66ccff;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    .button-section {
+        text-align: center;
+        margin-top: 30px; /* Margin atas untuk memisahkan tombol dari list */
+        margin-bottom: 30px;
+    }
+
+    .button-section .btn-custom {
+        background-color: #003366;
+        color: #fff;
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .button-section .btn-custom:hover {
+        background-color: #38aee9;
+        transform: scale(1.05);
+    }
+</style>
+
+<ul class="highlighted-list">
+    <li class="list-item">
+        <a href="its.html">Institut Teknologi Sepuluh Nopember (ITS)</a>
+    </li>
+    <li class="list-item">
+        <a href="unbraw.html">Universitas Brawijaya</a>
+    </li>
+    <li class="list-item">
+        <a href="museumangkot.html">Museum Angkut</a>
+    </li>
+    <li class="list-item">
+        <a href="bromo.html">Gunung Bromo</a>
     </li>
 </ul>
 
-<div class="button-container">
-    <a href="../blog-cat-masonry.html" class="btn">UA News</a>
+<div class="button-section">
+    <a href="../blog-cat-masonry.html" class="btn-custom">Explore More News</a>
 </div>
+
     
 <!-- Start Footer 2 Background Image  -->
 <div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
