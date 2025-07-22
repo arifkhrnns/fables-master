@@ -124,12 +124,17 @@
 <!-- Start Fables Navigation -->
 <div id="header"></div>
 <script>
-    fetch('header.html')
-        .then(response => response.text())
+    fetch('header.html?nocache=' + new Date().getTime())
+        .then(response => {
+            if (!response.ok) throw new Error('Gagal ambil header');
+            return response.text();
+        })
         .then(data => {
             document.getElementById('header').innerHTML = data;
-        });
+        })
+        .catch(error => console.error('Terjadi kesalahan:', error));
 </script>
+
 
 <!-- End Fables Navigation -->
      
