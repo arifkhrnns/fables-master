@@ -122,65 +122,15 @@
 <!-- /End Top Header -->
 
 <!-- Start Fables Navigation -->
-<div class="fables-navigation fables-main-background-color py-3 py-lg-0">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-12 pr-md-">                       
-                <nav class="navbar navbar-expand-md btco-hover-menu py-lg-2">
-                    <a class="navbar-brand pl-0" href="index.html">
-                        <img src="assets/custom/images/logo.png" alt="ULIL ALBAB" class="fables-logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fablesNavDropdown" aria-controls="fablesNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fables-iconmenu-icon text-white font-16"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="fablesNavDropdown"> 
-                        <ul class="navbar-nav mx-auto fables-nav">   
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Beranda</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="sub-nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Unit
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="sub-nav2">
-                                    <li><a class="dropdown-item" href="404.html">TK</a></li>
-                                    <li><a class="dropdown-item" href="404.html">SD</a></li>
-                                    <li><a class="dropdown-item" href="404.html">SMP</a></li>
-                                    <li><a class="dropdown-item" href="404.html">SMA</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="sub-nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Profil
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="sub-nav3">
-                                    <li><a class="dropdown-item" href="visimisi.html">VISI MISI</a></li>
-                                    <li><a class="dropdown-item" href="sejarah.html">Sejarah Singkat</a></li>
-                                    <li><a class="dropdown-item" href="404.html">Struktur Organisasi</a></li>
-                                    <li><a class="dropdown-item" href="404.html">Komite</a></li>
-                                    <li><a class="dropdown-item" href="404.html">Prestasi</a></li>
-                                    <li><a class="dropdown-item" href="404.html">Fasilitas</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="sub-nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Informasi
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="sub-nav4">
-                                    <li><a class="dropdown-item" href="blog-cat-masonry.html">UA News</a></li>
-                                    <li><a class="dropdown-item" href="ppdb.html">PPDB</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="form-ppdb.html">Pendaftaran</a>
-                            </li>
-                        </ul> 
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
+<div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
+
 <!-- End Fables Navigation -->
      
 <!-- Start Unique Header -->
