@@ -36,6 +36,14 @@ html {
   scroll-behavior: smooth;
 }
 
+#mainHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: top 0.3s ease-in-out;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   overflow: auto;
