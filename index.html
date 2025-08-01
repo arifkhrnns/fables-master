@@ -938,55 +938,18 @@
 <!-- /End page content -->
     
 <!-- Start Footer 2 Background Image -->
-<div class="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
-    <div class="container">
-        <div class="row">
-            <!-- About Us -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
-                <a href="#" class="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13">
-                    <img src="assets/custom/images/Group 2 (2).png" alt="fables template" class="img-fluid">
-                </a>
-                <p class="font-15 fables-third-text-color text-justify">
-                    SIT Ulil Albab adalah bagian dari Yayasan Ulil Albab. Saat ini SIT Ulil Albab memiliki 4 lembaga pendidikan. dan telah menciptakan alumni berprestasi.
-                </p>
-            </div>
-            <!-- Contact -->
-            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
-                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Kontak</h2>
-                <div class="my-2">
-                    <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Alamat</h4>
-                    <p class="font-14 fables-fifth-text-color mt-2">Jl. Bosih Raya, RT.5/RW.2, Wanasari, Kec. Cibitung, Kabupaten Bekasi, Jawa Barat 17520</p>
-                </div>
-                <div class="my-2">
-                    <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Hubungi Kami </h4>
-                    <p class="font-14 fables-fifth-text-color mt-2">+62 821-2203-7474 (Ibu Lina)</p>
-                </div>
-                <div class="my-2">
-                    <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> E-Mail </h4>
-                    <p class="font-14 fables-fifth-text-color mt-2">yysulilalbab02@gmail.com</p>
-                </div>
-            </div>
-            <!-- About Links -->
-            <div class="col-12 col-lg-4">
-                <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3 mb-3">Tentang</h2>
-                <ul class="nav fables-footer-links">
-                    <li><a href="index.html">Beranda</a></li>
-                    <li><a href="#">Unit</a></li>
-                    <li><a href="#">Profil</a></li>
-                    <li><a href="#">Informasi</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="copyright fables-main-background-color mt-0 border-0 white-color py-2">
-    <p class="mb-1 text-center">Ikuti Kami di Sosial Media Kami</p>
-    <ul class="nav fables-footer-social-links justify-content-center fables-light-footer-links">
-        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/sit_ulilalbabbekasi" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-    </ul>
-</div>
+<div id="footer"></div>
+<script>
+    fetch('footer.html?nocache=' + new Date().getTime())
+        .then(response => {
+            if (!response.ok) throw new Error('Gagal ambil footer');
+            return response.text();
+        })
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        })
+        .catch(error => console.error('Terjadi kesalahan:', error));
+</script>
 <!-- /End Footer 2 Background Image -->
 
 
