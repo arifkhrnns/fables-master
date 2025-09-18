@@ -4874,3 +4874,9 @@ a.toggle-menu {
   text-decoration: none;
 }
 
+.program-img {
+  width: 250px;       /* bisa diubah sesuai desain */
+  height: 200px;
+  object-fit: cover; /* biar proporsional */
+  border-radius: 8px; /* kasih rounded dikit */
+}
