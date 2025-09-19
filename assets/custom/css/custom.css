@@ -4880,3 +4880,23 @@ a.toggle-menu {
   object-fit: cover; /* biar proporsional */
   border-radius: 8px; /* kasih rounded dikit */
 }
+
+.alumni-logo {
+  max-height: 70px;  /* kecilin biar muat di HP */
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+
+.alumni-logo:hover {
+  transform: scale(1.15);
+}
+
+.alumni-carousel p {
+  font-size: 14px;
+  margin-top: 8px;
+  white-space: normal; /* biar teks panjang auto wrap */
+}
+
