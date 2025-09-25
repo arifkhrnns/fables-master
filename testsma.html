@@ -20,35 +20,70 @@
 </head>
 <body>
 
-<!-- Header -->
+<!-- Start Fables Navigation -->
+ <!-- Header -->
 <div id="header"></div>
 <script>
     fetch('header.html?nocache=' + new Date().getTime())
-        .then(res => res.text())
-        .then(data => document.getElementById('header').innerHTML = data);
-</script>
+        .then(response => {
+            if (!response.ok) throw new Error('Gagal ambil header');
+            return response.text();
+        })
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
 
-<!-- Main Banner -->
-<div style="
-    background-image: url('/assets/custom/images/sma/bg-sma.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex; justify-content: center; align-items: center;
-    text-align: center; position: relative; overflow: hidden;">
-    
-    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.4);"></div>
-    
-    <div style="position:relative; z-index:2;">
-        <h1 style="font-size:48px; font-weight:bold; color:#FFEB3B; text-shadow:2px 2px 6px rgba(0,0,0,0.7);">
-            SMAIT ULIL ALBAB
-        </h1>
-        <p style="font-size:22px; color:#fff; text-shadow:1px 1px 4px rgba(0,0,0,0.8); max-width:700px; margin:0 auto;">
-            Mencetak Generasi Qurani, Berprestasi, dan Siap Menghadapi Dunia Global
-        </p>
-    </div>
+            // Kode scroll masuk di sini
+            let lastScrollTop = 0;
+            const header = document.getElementById('mainHeader');
+
+            window.addEventListener('scroll', function () {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    header.style.top = "-100px";
+                } else {
+                    header.style.top = "0";
+                }
+
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            });
+        })
+        .catch(error => console.error('Terjadi kesalahan:', error));
+</script>
+<!-- End Header -->
+<!-- End Fables Navigation -->
+
+<!-- Banner -->
+<div style="position:relative; width:100%; overflow:hidden; margin-top:80px; cursor:pointer;"
+     data-toggle="modal" data-target="#bannerModal">
+  <img src="assets/custom/images/sma/banner.jpg" 
+       alt="Banner SMAIT Ulil Albab"
+       style="width:100%; height:auto; display:block;">
+
+  <!-- Branding watermark -->
+  <div style="
+    position:absolute; bottom:15px; right:20px;
+    background:rgba(0,0,0,0.5);
+    padding:6px 14px; border-radius:4px;
+    color:#fff; font-size:14px; font-weight:600;
+    font-family: Arial, sans-serif;
+  ">
+    SMAIT ULIL ALBAB
+  </div>
 </div>
-<!-- /Main Banner -->
+
+<!-- Modal untuk menampilkan gambar besar -->
+<div class="modal fade" id="bannerModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <img src="assets/custom/images/sma/banner.jpg" 
+           alt="Banner Besar"
+           class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+
+
 
 <!-- About Section -->
 <div class="container my-5">
