@@ -1,0 +1,16 @@
+# Run the complete Vite + static HTML generator, not `vite build` alone.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24.18.0"
+
+# Links and canonical URLs intentionally retain the existing .html paths.
+[build.processing.html]
+  pretty_urls = false
+
+# Netlify serves index.html for / and uses dist/404.html for missing paths.
+# No SPA fallback, slash-only redirects, or domain redirects are needed.
+# The 68 compatibility URLs remain real HTML files generated during build.
+# dist/.htaccess is an optional Apache artifact; Netlify does not use it.

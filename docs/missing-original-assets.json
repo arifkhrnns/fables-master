@@ -1,0 +1,157 @@
+[
+  {
+    "file": "biodata.html",
+    "asset": "assets/custom/images/wallpaper_bio.png",
+    "type": "inline-css"
+  },
+  {
+    "file": "biodata.html",
+    "asset": "assets/custom/images/IMG_20241031_110020-removebg-preview.png",
+    "type": "image"
+  },
+  {
+    "file": "home4.html",
+    "asset": "assets/custom/images/index1.jpg",
+    "type": "image"
+  },
+  {
+    "file": "home4.html",
+    "asset": "assets/custom/images/index2.jpg",
+    "type": "image"
+  },
+  {
+    "file": "home4.html",
+    "asset": "assets/custom/images/index3.jpg",
+    "type": "image"
+  },
+  {
+    "file": "home4.html",
+    "asset": "assets/custom/images/index1.jpg",
+    "type": "image"
+  },
+  {
+    "file": "home4.html",
+    "asset": "assets/custom/images/index2.jpg",
+    "type": "image"
+  },
+  {
+    "file": "meyawo/public_html/maulkuadrat.html",
+    "asset": "meyawo/public_html/index.html",
+    "type": "link"
+  },
+  {
+    "file": "sd.html",
+    "asset": "assets/custom/images/sd-ulil-albab.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery1.jpg",
+    "type": "gallery"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery2.jpg",
+    "type": "gallery"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery3.jpg",
+    "type": "gallery"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/tk-activities.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/qualified-teachers.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/fun-environment.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/holistic-approach.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery1_thumb.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery2_thumb.jpg",
+    "type": "image"
+  },
+  {
+    "file": "tk.html",
+    "asset": "assets/custom/images/gallery3_thumb.jpg",
+    "type": "image"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/paper-3139127_1280.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/counter-background.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/contact-caption-back.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/index-products-overlay.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/DSCF9403.JPG",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/together.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/choose-us-background.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/table-bg.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/talk-coasts-friends.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/testimonial-index-bg.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/index-services-bg.jpg",
+    "type": "css"
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "asset": "assets/custom/images/top-header-background.jpg",
+    "type": "css"
+  }
+]

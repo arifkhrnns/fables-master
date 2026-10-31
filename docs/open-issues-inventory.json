@@ -1,0 +1,1105 @@
+{
+  "reviewed": "2026-10-31",
+  "baselineCommit": "ee33d1f1318478236ed4b657d5c50989abaa62e8",
+  "missing": [
+    {
+      "file": "biodata.html",
+      "asset": "assets/custom/images/wallpaper_bio.png",
+      "type": "inline-css",
+      "originalLines": [
+        21
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "biodata.html",
+      "asset": "assets/custom/images/IMG_20241031_110020-removebg-preview.png",
+      "type": "image",
+      "originalLines": [
+        147
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "home4.html",
+      "asset": "assets/custom/images/index1.jpg",
+      "type": "image",
+      "originalLines": [
+        533,
+        568
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "home4.html",
+      "asset": "assets/custom/images/index2.jpg",
+      "type": "image",
+      "originalLines": [
+        544,
+        579
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "home4.html",
+      "asset": "assets/custom/images/index3.jpg",
+      "type": "image",
+      "originalLines": [
+        555
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "home4.html",
+      "asset": "assets/custom/images/index1.jpg",
+      "type": "image",
+      "originalLines": [
+        533,
+        568
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "home4.html",
+      "asset": "assets/custom/images/index2.jpg",
+      "type": "image",
+      "originalLines": [
+        544,
+        579
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "meyawo/public_html/maulkuadrat.html",
+      "asset": "meyawo/public_html/index.html",
+      "type": "link",
+      "originalLines": [
+        20
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Historical missing reference; see ASSET-RECOVERY.md"
+    },
+    {
+      "file": "sd.html",
+      "asset": "assets/custom/images/sd-ulil-albab.jpg",
+      "type": "image",
+      "originalLines": [
+        299
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery1.jpg",
+      "type": "gallery",
+      "originalLines": [
+        354
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery2.jpg",
+      "type": "gallery",
+      "originalLines": [
+        357
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery3.jpg",
+      "type": "gallery",
+      "originalLines": [
+        360
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/tk-activities.jpg",
+      "type": "image",
+      "originalLines": [
+        294
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/qualified-teachers.jpg",
+      "type": "image",
+      "originalLines": [
+        318
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/fun-environment.jpg",
+      "type": "image",
+      "originalLines": [
+        327
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/holistic-approach.jpg",
+      "type": "image",
+      "originalLines": [
+        336
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery1_thumb.jpg",
+      "type": "image",
+      "originalLines": [
+        354
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery2_thumb.jpg",
+      "type": "image",
+      "originalLines": [
+        357
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "tk.html",
+      "asset": "assets/custom/images/gallery3_thumb.jpg",
+      "type": "image",
+      "originalLines": [
+        360
+      ],
+      "existsInPublic": false,
+      "recoveryStatus": "Superseded by unit content and exact assets from ee33d1f"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/paper-3139127_1280.jpg",
+      "type": "css",
+      "originalLines": [
+        450
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-bussiness-section",
+      "usedOn": [],
+      "currentLine": 450,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/counter-background.jpg",
+      "type": "css",
+      "originalLines": [
+        494
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-counter-section",
+      "usedOn": [],
+      "currentLine": 494,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/contact-caption-back.jpg",
+      "type": "css",
+      "originalLines": [
+        2700
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-contact-caption",
+      "usedOn": [],
+      "currentLine": 2700,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/index-products-overlay.jpg",
+      "type": "css",
+      "originalLines": [
+        3607
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-index-products",
+      "usedOn": [],
+      "currentLine": 3607,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/DSCF9403.JPG",
+      "type": "css",
+      "originalLines": [
+        3658
+      ],
+      "existsInPublic": false,
+      "selector": ".half-width-testimonial",
+      "usedOn": [],
+      "currentLine": 3658,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/together.jpg",
+      "type": "css",
+      "originalLines": [
+        3729
+      ],
+      "existsInPublic": false,
+      "selector": ".together-block",
+      "usedOn": [],
+      "currentLine": 3729,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/choose-us-background.jpg",
+      "type": "css",
+      "originalLines": [
+        3753
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-choose-background",
+      "usedOn": [],
+      "currentLine": 3753,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/table-bg.jpg",
+      "type": "css",
+      "originalLines": [
+        3774
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-price-bg",
+      "usedOn": [],
+      "currentLine": 3774,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/talk-coasts-friends.jpg",
+      "type": "css",
+      "originalLines": [
+        3777
+      ],
+      "existsInPublic": false,
+      "selector": ".subscribe-index-bg",
+      "usedOn": [],
+      "currentLine": 3777,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/testimonial-index-bg.jpg",
+      "type": "css",
+      "originalLines": [
+        3831
+      ],
+      "existsInPublic": false,
+      "selector": ".testimonial-index-bg",
+      "usedOn": [],
+      "currentLine": 3831,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/index-services-bg.jpg",
+      "type": "css",
+      "originalLines": [
+        3847
+      ],
+      "existsInPublic": false,
+      "selector": ".fables-index-services",
+      "usedOn": [],
+      "currentLine": 3847,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    },
+    {
+      "file": "assets/custom/css/custom.css",
+      "asset": "assets/custom/images/top-header-background.jpg",
+      "type": "css",
+      "originalLines": [
+        3856
+      ],
+      "existsInPublic": false,
+      "selector": ".index-3-height",
+      "usedOn": [],
+      "currentLine": 3856,
+      "currentValue": "none",
+      "recoveryStatus": "Found in earlier Git history; outside active unit restoration"
+    }
+  ],
+  "contacts": [
+    {
+      "page": "/404.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/anbk.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/blog-cat-masonry.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/blog-details2.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/form-ppdb.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6281314180955&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/header2-light.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/home4.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/index.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/kolosaldrama.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/pawai.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/ppdb.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum, saya mau bertanya tentang PPDB SIT Ulil Albab"
+    },
+    {
+      "page": "/sd.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/sejarah.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/supervisi.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/tk.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/anbk.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/bromo.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/campleadersip.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/fathersday.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/GTC.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/its.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/kolosaldrama.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/mabit.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/marketday.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/maulid.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/museumangkot.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/pawai.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/puskesmas.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/raker.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/safarisosial.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/sdita.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/supervisi.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/unbraw.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/upacara17.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/walimatu.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/upacara17.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": null
+    },
+    {
+      "page": "/visimisi.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/smp.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": true,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/sma.html",
+      "phone": "+62 821-2203-7474 (Ibu Lina)",
+      "inherited": true,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/isra_miraj.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/Milad_25.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/semarak_milad25.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    },
+    {
+      "page": "/uanews/seminar_karil.html",
+      "phone": "+62 813-1418-0955 (Ibu Lina)",
+      "inherited": false,
+      "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+    }
+  ],
+  "formEntries": [
+    {
+      "page": "/404.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/anbk.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/blog-cat-masonry.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/blog-details2.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/form-ppdb.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        },
+        {
+          "text": "buka formulir pendaftaran di Google Forms",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSfcOFD1bp7WGoWrKmTtHsWQLm_qepCG8avFr54juUgx_4K5xg/viewform"
+        }
+      ],
+      "iframes": [
+        "https://docs.google.com/forms/d/e/1FAIpQLSfcOFD1bp7WGoWrKmTtHsWQLm_qepCG8avFr54juUgx_4K5xg/viewform?embedded=true"
+      ]
+    },
+    {
+      "page": "/header2-light.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/home4.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/index.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        },
+        {
+          "text": "Daftar 2026/2027",
+          "href": "/form-ppdb.html"
+        },
+        {
+          "text": "Daftar 2026/2027",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/kolosaldrama.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/pawai.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/ppdb.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        },
+        {
+          "text": "Daftar 2026/2027",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/sd.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/sejarah.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/supervisi.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/tk.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/anbk.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/bromo.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/campleadersip.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/fathersday.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/GTC.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/its.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/kolosaldrama.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/mabit.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/marketday.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/maulid.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/museumangkot.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/pawai.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/puskesmas.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/raker.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/safarisosial.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/sdita.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/supervisi.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/unbraw.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/upacara17.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/walimatu.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/upacara17.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/visimisi.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/smp.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/sma.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/isra_miraj.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/Milad_25.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/semarak_milad25.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    },
+    {
+      "page": "/uanews/seminar_karil.html",
+      "links": [
+        {
+          "text": "Pendaftaran",
+          "href": "/form-ppdb.html"
+        }
+      ],
+      "iframes": []
+    }
+  ],
+  "confirmedByManager": {
+    "ppdbYear": "2026/2027",
+    "formsUrlUnchanged": true,
+    "bothSchoolNumbersUsedFor": "PPDB dan kontak umum",
+    "perNumberRole": "Belum ditentukan",
+    "sourceHosting": "GitHub",
+    "buildAndHosting": "Netlify",
+    "domainManager": "IDwebhost"
+  },
+  "historicalBaselineCommit": "61b460157acef514d09bde387ed34b3ad6465d67",
+  "recovery": {
+    "report": "ASSET-RECOVERY.md",
+    "manifest": "asset-recovery-manifest.json",
+    "assets": 35,
+    "note": "Daftar missing merupakan snapshot baseline lama, bukan daftar aset unit terbaru yang belum pulih."
+  },
+  "baselineReview": {
+    "commit": "ee33d1f1318478236ed4b657d5c50989abaa62e8",
+    "report": "BASELINE-COMPLETENESS.md",
+    "data": "baseline-completeness.json",
+    "unmappedSchoolPages": 0,
+    "formContactDecision": {
+      "baseline": "0821 footer and WhatsApp",
+      "current": "0813 footer and WhatsApp",
+      "status": "Existing current targets retained; official mapping required"
+    }
+  }
+}

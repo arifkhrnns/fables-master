@@ -1,0 +1,9 @@
+/* Source: ee33d1f:uanews/GTC.html. Scoped to the campus destination list. */
+.gtc-destinations { list-style: none; margin: 20px auto; padding: 0; max-width: 600px; text-align: center; }
+.gtc-destinations li { margin: 30px 0; background: #f0f8ff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,.1); transition: transform .2s ease, box-shadow .2s ease; }
+.gtc-destinations li:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,.2); }
+.gtc-destinations a { display: block; padding: 15px 20px; font-size: 18px; font-weight: bold; color: #003366; text-decoration: none; }
+.gtc-destinations a:hover { background: #66ccff; color: #fff; border-radius: 8px; }
+.gtc-news-link { text-align: center; margin: 30px 0; }
+.gtc-news-link a { display: inline-block; background: #003366; color: #fff; padding: 10px 25px; font-size: 16px; font-weight: bold; border-radius: 25px; text-decoration: none; transition: background-color .2s ease, transform .2s ease; }
+.gtc-news-link a:hover { background: #38aee9; transform: scale(1.05); }

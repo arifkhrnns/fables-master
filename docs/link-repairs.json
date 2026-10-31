@@ -1,0 +1,27 @@
+[
+  {
+    "file": "maulkuadrat.html",
+    "from": "/components.html",
+    "to": "/404.html"
+  },
+  {
+    "file": "meyawo/public_html/maulkuadrat.html",
+    "from": "/meyawo/public_html/components.html",
+    "to": "/404.html"
+  },
+  {
+    "file": "sd.html",
+    "from": "/contact.html",
+    "to": "/index.html#kontak"
+  },
+  {
+    "file": "sejarah.html",
+    "from": "assets/custom/images/DSCF9424.jpg",
+    "to": "assets/custom/images/DSCF9424.JPG"
+  },
+  {
+    "file": "tk.html",
+    "from": "/contact.html",
+    "to": "/index.html#kontak"
+  }
+]

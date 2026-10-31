@@ -1,0 +1,1083 @@
+{
+  "commit": "ee33d1f1318478236ed4b657d5c50989abaa62e8",
+  "source": "C:/Users/Lenovo/Documents/ulil-asset-recovery/source-origin-main",
+  "restoredAssets": [
+    {
+      "source": "assets/custom/images/bg-tk.JPG",
+      "target": "public/assets/custom/images/bg-tk.JPG",
+      "sha256": "eb485c3513e60ba126baa6c1f42b8ceebffbe25f99285cd25ee2a7832fe5da87",
+      "bytes": 4056315,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 149
+        },
+        {
+          "file": "tk.html",
+          "line": 235
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/kepsek-tk.png",
+      "target": "public/assets/custom/images/tk/kepsek-tk.png",
+      "sha256": "d9e76e355dcddbd237a66b16d883944abb8fd7d5953aba6f533cc0e6c0774c55",
+      "bytes": 561408,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/funenvironment.png",
+      "target": "public/assets/custom/images/tk/funenvironment.png",
+      "sha256": "76ddc213d3c78f254b03cb58bcc57bc6c446a9acaf3a3ef35252d5b816dd2523",
+      "bytes": 12226544,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 244
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/deeplearning.jpg",
+      "target": "public/assets/custom/images/tk/deeplearning.jpg",
+      "sha256": "d1c381531aca5de493078a69e753f7b886a089fbb78e63968e4fd24ff11c20e2",
+      "bytes": 1459524,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 253
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/galeri1.jpg",
+      "target": "public/assets/custom/images/tk/galeri1.jpg",
+      "sha256": "1e71bca9ebc562cdc0f05c6c8fc8c28b7e2b1379b5208abfee8701bf42b1072a",
+      "bytes": 1997312,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 273
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/galeri2.JPG",
+      "target": "public/assets/custom/images/tk/galeri2.JPG",
+      "sha256": "68def5d3cf6884c31b093d706c944573181bbc73e33896d450fee4b73b0ba2a0",
+      "bytes": 5350077,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 279
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/galeri3.JPG",
+      "target": "public/assets/custom/images/tk/galeri3.JPG",
+      "sha256": "4867f35c35292e33f46470e49325d0eee1a83bef3403013d8ecc970dec926e30",
+      "bytes": 3841218,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 285
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/galeri4.JPG",
+      "target": "public/assets/custom/images/tk/galeri4.JPG",
+      "sha256": "8b14b0f7d70b8b777691a1245421f1860651590808114e82d5a0005ed3969785",
+      "bytes": 4845790,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 291
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/tk/galeri5.jpg",
+      "target": "public/assets/custom/images/tk/galeri5.jpg",
+      "sha256": "1af2756325839af659dffcc5bbc2b70601d6ac82bfbd50f7cb0b79b0c4adb62c",
+      "bytes": 6148872,
+      "sourceLocations": [
+        {
+          "file": "tk.html",
+          "line": 297
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sd/bg.jpg",
+      "target": "public/assets/custom/images/sd/bg.jpg",
+      "sha256": "4445d3f234174a995a50705dae193c627a7b0b5ca19be2ca0514c24d2cbc6791",
+      "bytes": 1127839,
+      "sourceLocations": [
+        {
+          "file": "sd.html",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sd/kepseksd.png",
+      "target": "public/assets/custom/images/sd/kepseksd.png",
+      "sha256": "eea0d0abf002b179854acb6f9e3765e8353bc835bc88a0dd29649cbb2cc9e1c4",
+      "bytes": 118515,
+      "sourceLocations": [
+        {
+          "file": "sd.html",
+          "line": 170
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sd/farm.JPG",
+      "target": "public/assets/custom/images/sd/farm.JPG",
+      "sha256": "10605745c1f77994a4d016511248b09be0ad5f407a3c6d7a3c0ef00e270058d9",
+      "bytes": 5248753,
+      "sourceLocations": [
+        {
+          "file": "sd.html",
+          "line": 205
+        },
+        {
+          "file": "smp.html",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sd/panah.JPG",
+      "target": "public/assets/custom/images/sd/panah.JPG",
+      "sha256": "28356fe7f5a18a5f94f013e9edac7f17b4b61d12cdc696e91f1868d71ab9628b",
+      "bytes": 5117098,
+      "sourceLocations": [
+        {
+          "file": "sd.html",
+          "line": 215
+        },
+        {
+          "file": "smp.html",
+          "line": 215
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sd/funcooking.JPG",
+      "target": "public/assets/custom/images/sd/funcooking.JPG",
+      "sha256": "43e6fa954135c68f1e2edf9c2b0b99c310ba38e8b406a83a0c5e9d3966d5ca4f",
+      "bytes": 4386446,
+      "sourceLocations": [
+        {
+          "file": "sd.html",
+          "line": 225
+        },
+        {
+          "file": "smp.html",
+          "line": 225
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/smp/bg.jpg",
+      "target": "public/assets/custom/images/smp/bg.jpg",
+      "sha256": "b93b8b3c55d691d16d472e5b3c6de32f9be8c4351961279a7f193f72771cf748",
+      "bytes": 281240,
+      "sourceLocations": [
+        {
+          "file": "smp.html",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/smp/kepsek.jpg",
+      "target": "public/assets/custom/images/smp/kepsek.jpg",
+      "sha256": "541ee1c3f41e0c6bc2d48f0e9538bf38687f6754cd6031de6a3bf174c7703046",
+      "bytes": 107872,
+      "sourceLocations": [
+        {
+          "file": "smp.html",
+          "line": 170
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sma/banner.jpg",
+      "target": "public/assets/custom/images/sma/banner.jpg",
+      "sha256": "669b9791e26976e3dd554c6ca326f78d46169949ec6b32f19458953d534310f4",
+      "bytes": 684725,
+      "sourceLocations": [
+        {
+          "file": "sma.html",
+          "line": 67
+        },
+        {
+          "file": "sma.html",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sma/kepsek.png",
+      "target": "public/assets/custom/images/sma/kepsek.png",
+      "sha256": "98413cf86eb109c878ef7eab3013a968e67e2f3c3f14c1372a67a927f1f1d5ef",
+      "bytes": 261522,
+      "sourceLocations": [
+        {
+          "file": "sma.html",
+          "line": 100
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sma/unsika.png",
+      "target": "public/assets/custom/images/sma/unsika.png",
+      "sha256": "13312382f81c6a01af7c77628f06d742b7ad96d5f23aef71e8f5ee44498aecf0",
+      "bytes": 14575,
+      "sourceLocations": [
+        {
+          "file": "sma.html",
+          "line": 134
+        },
+        {
+          "file": "sma.html",
+          "line": 139
+        },
+        {
+          "file": "sma.html",
+          "line": 144
+        },
+        {
+          "file": "sma.html",
+          "line": 149
+        },
+        {
+          "file": "sma.html",
+          "line": 154
+        },
+        {
+          "file": "sma.html",
+          "line": 159
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (1).JPG",
+      "target": "public/assets/custom/images/marketday/1 (1).JPG",
+      "sha256": "e71cfa3c2788466e72cc39474ca62729a083bac130414caeee435746f61c19e0",
+      "bytes": 3745125,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 305
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (2).JPG",
+      "target": "public/assets/custom/images/marketday/1 (2).JPG",
+      "sha256": "40d8e3ed873be2be58fcce41f090798211f3fe23e77631a44f58b48bc2b13ed1",
+      "bytes": 4125799,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (3).JPG",
+      "target": "public/assets/custom/images/marketday/1 (3).JPG",
+      "sha256": "6686ef35d6421ae3e9b1994d013c375ea65911dceda700359e7cc03a99e4e1e5",
+      "bytes": 3894632,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 313
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (4).JPG",
+      "target": "public/assets/custom/images/marketday/1 (4).JPG",
+      "sha256": "43f6a0cefcc06db84fbcabb8371194718c8a1ac3c76af29fe0189cf4aee18f9b",
+      "bytes": 4998105,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 317
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (5).JPG",
+      "target": "public/assets/custom/images/marketday/1 (5).JPG",
+      "sha256": "62a51eb9fbdbcedbc0b2316eb8f67867d7c63c9d5f959302cbf8b2e4a4a43485",
+      "bytes": 4234268,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 321
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (6).JPG",
+      "target": "public/assets/custom/images/marketday/1 (6).JPG",
+      "sha256": "e732d6ee8bfe42c12a1e324fbe44e9054f97747a5aab6754c33255d3653337dc",
+      "bytes": 4687796,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 325
+        },
+        {
+          "file": "index.html",
+          "line": 862
+        },
+        {
+          "file": "blog-cat-masonry.html",
+          "line": 161
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/marketday/1 (7).JPG",
+      "target": "public/assets/custom/images/marketday/1 (7).JPG",
+      "sha256": "8be6b363bfe9364f9eba4c17424973e617d93d3f2549d651d9510f411f2bb6ab",
+      "bytes": 4146743,
+      "sourceLocations": [
+        {
+          "file": "uanews/marketday.html",
+          "line": 329
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (1).JPG",
+      "target": "public/assets/custom/images/raker/1 (1).JPG",
+      "sha256": "1b6d6970d641ec383cca30c874d01d7a34fa76f88f5cd5965b49337ec8bcbce7",
+      "bytes": 3582715,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 305
+        },
+        {
+          "file": "index.html",
+          "line": 833
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (2).JPG",
+      "target": "public/assets/custom/images/raker/1 (2).JPG",
+      "sha256": "00f7601261665c6673dded364ae315c63226ae54f88c86d2948b4d35814ab32b",
+      "bytes": 3725396,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 309
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (3).JPG",
+      "target": "public/assets/custom/images/raker/1 (3).JPG",
+      "sha256": "4fad383f487cbac37840ec8ac8236b18dd9c48d7ed2d07550429fdb99ff22d1d",
+      "bytes": 3636242,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 313
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (4).JPG",
+      "target": "public/assets/custom/images/raker/1 (4).JPG",
+      "sha256": "4e47d1d31e9b2abb7a84c388676a7d72757dd7834591f1be787784fa993d0782",
+      "bytes": 3748658,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 317
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (5).JPG",
+      "target": "public/assets/custom/images/raker/1 (5).JPG",
+      "sha256": "df6e75cf5eeacfe78dcb245f5c219b4231d74459d49ce303ee179326e4379926",
+      "bytes": 3745498,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 321
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (6).JPG",
+      "target": "public/assets/custom/images/raker/1 (6).JPG",
+      "sha256": "4011c47ea02750de6732cae2d1bd38b2894d6bb0f47d78784faad2c4295415eb",
+      "bytes": 3577097,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 325
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/raker/1 (7).jpg",
+      "target": "public/assets/custom/images/raker/1 (7).jpg",
+      "sha256": "034ba9ffe2f47eb134f06acedc90579c2596d8160a9ce2c5e09e2985123fd751",
+      "bytes": 151103,
+      "sourceLocations": [
+        {
+          "file": "uanews/raker.html",
+          "line": 329
+        },
+        {
+          "file": "blog-cat-masonry.html",
+          "line": 142
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/sdita.png",
+      "target": "public/assets/custom/images/sdita.png",
+      "sha256": "b40d4df762927dd6c969ba9874cd5be8aafd1618551e6fe29d9371656975ee94",
+      "bytes": 3504290,
+      "sourceLocations": [
+        {
+          "file": "index.html",
+          "line": 803
+        },
+        {
+          "file": "blog-cat-masonry.html",
+          "line": 123
+        }
+      ]
+    },
+    {
+      "source": "assets/custom/images/bg-yys.png",
+      "target": "public/assets/custom/images/bg-yys.png",
+      "sha256": "50bd1be98c262cfad941f2b0b8eef8e8aad1d75b9d25cea4d391bb5f8ba7f760",
+      "bytes": 1076059,
+      "sourceLocations": [
+        {
+          "file": "sejarah.html",
+          "line": 126
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "page": "tk.html",
+      "sourceRef": "/assets/custom/images/bg-tk.JPG",
+      "asset": "assets/custom/images/bg-tk.JPG"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/kepsek-tk.png",
+      "asset": "assets/custom/images/tk/kepsek-tk.png"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/bg-tk.JPG",
+      "asset": "assets/custom/images/bg-tk.JPG"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/funenvironment.png",
+      "asset": "assets/custom/images/tk/funenvironment.png"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/deeplearning.jpg",
+      "asset": "assets/custom/images/tk/deeplearning.jpg"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/galeri1.jpg",
+      "asset": "assets/custom/images/tk/galeri1.jpg"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/galeri2.JPG",
+      "asset": "assets/custom/images/tk/galeri2.JPG"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/galeri3.JPG",
+      "asset": "assets/custom/images/tk/galeri3.JPG"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/galeri4.JPG",
+      "asset": "assets/custom/images/tk/galeri4.JPG"
+    },
+    {
+      "page": "tk.html",
+      "sourceRef": "assets/custom/images/tk/galeri5.JPG",
+      "asset": "assets/custom/images/tk/galeri5.jpg"
+    },
+    {
+      "page": "sd.html",
+      "sourceRef": "/assets/custom/images/sd/bg.jpg",
+      "asset": "assets/custom/images/sd/bg.jpg"
+    },
+    {
+      "page": "sd.html",
+      "sourceRef": "assets/custom/images/sd/kepseksd.png",
+      "asset": "assets/custom/images/sd/kepseksd.png"
+    },
+    {
+      "page": "sd.html",
+      "sourceRef": "assets/custom/images/sd/farm.JPG",
+      "asset": "assets/custom/images/sd/farm.JPG"
+    },
+    {
+      "page": "sd.html",
+      "sourceRef": "assets/custom/images/sd/panah.JPG",
+      "asset": "assets/custom/images/sd/panah.JPG"
+    },
+    {
+      "page": "sd.html",
+      "sourceRef": "assets/custom/images/sd/funcooking.JPG",
+      "asset": "assets/custom/images/sd/funcooking.JPG"
+    },
+    {
+      "page": "smp.html",
+      "sourceRef": "/assets/custom/images/smp/bg.jpg",
+      "asset": "assets/custom/images/smp/bg.jpg"
+    },
+    {
+      "page": "smp.html",
+      "sourceRef": "assets/custom/images/smp/kepsek.jpg",
+      "asset": "assets/custom/images/smp/kepsek.jpg"
+    },
+    {
+      "page": "smp.html",
+      "sourceRef": "assets/custom/images/sd/farm.JPG",
+      "asset": "assets/custom/images/sd/farm.JPG"
+    },
+    {
+      "page": "smp.html",
+      "sourceRef": "assets/custom/images/sd/panah.JPG",
+      "asset": "assets/custom/images/sd/panah.JPG"
+    },
+    {
+      "page": "smp.html",
+      "sourceRef": "assets/custom/images/sd/funcooking.JPG",
+      "asset": "assets/custom/images/sd/funcooking.JPG"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/banner.jpg",
+      "asset": "assets/custom/images/sma/banner.jpg"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/banner.jpg",
+      "asset": "assets/custom/images/sma/banner.jpg"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/kepsek.png",
+      "asset": "assets/custom/images/sma/kepsek.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "sma.html",
+      "sourceRef": "assets/custom/images/sma/unsika.png",
+      "asset": "assets/custom/images/sma/unsika.png"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (1).JPG",
+      "asset": "assets/custom/images/marketday/1 (1).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (2).JPG",
+      "asset": "assets/custom/images/marketday/1 (2).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (3).JPG",
+      "asset": "assets/custom/images/marketday/1 (3).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (4).JPG",
+      "asset": "assets/custom/images/marketday/1 (4).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (5).JPG",
+      "asset": "assets/custom/images/marketday/1 (5).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (6).JPG",
+      "asset": "assets/custom/images/marketday/1 (6).JPG"
+    },
+    {
+      "page": "uanews/marketday.html",
+      "sourceRef": "../assets/custom/images/marketday/1 (7).JPG",
+      "asset": "assets/custom/images/marketday/1 (7).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (1).JPG",
+      "asset": "assets/custom/images/raker/1 (1).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (2).JPG",
+      "asset": "assets/custom/images/raker/1 (2).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (3).JPG",
+      "asset": "assets/custom/images/raker/1 (3).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (4).JPG",
+      "asset": "assets/custom/images/raker/1 (4).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (5).JPG",
+      "asset": "assets/custom/images/raker/1 (5).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (6).JPG",
+      "asset": "assets/custom/images/raker/1 (6).JPG"
+    },
+    {
+      "page": "uanews/raker.html",
+      "sourceRef": "../assets/custom/images/raker/1 (7).JPG",
+      "asset": "assets/custom/images/raker/1 (7).jpg"
+    },
+    {
+      "page": "index.html",
+      "sourceRef": "assets/custom/images/sdita.png",
+      "asset": "assets/custom/images/sdita.png"
+    },
+    {
+      "page": "index.html",
+      "sourceRef": "assets/custom/images/raker/1 (1).JPG",
+      "asset": "assets/custom/images/raker/1 (1).JPG"
+    },
+    {
+      "page": "index.html",
+      "sourceRef": "assets/custom/images/marketday/1 (6).JPG",
+      "asset": "assets/custom/images/marketday/1 (6).JPG"
+    },
+    {
+      "page": "blog-cat-masonry.html",
+      "sourceRef": "assets/custom/images/sdita.png",
+      "asset": "assets/custom/images/sdita.png"
+    },
+    {
+      "page": "blog-cat-masonry.html",
+      "sourceRef": "assets/custom/images/raker/1 (7).jpg",
+      "asset": "assets/custom/images/raker/1 (7).jpg"
+    },
+    {
+      "page": "blog-cat-masonry.html",
+      "sourceRef": "assets/custom/images/marketday/1 (6).JPG",
+      "asset": "assets/custom/images/marketday/1 (6).JPG"
+    },
+    {
+      "page": "sejarah.html",
+      "sourceRef": "assets/custom/images/bg-yys.png",
+      "asset": "assets/custom/images/bg-yys.png"
+    }
+  ],
+  "pages": [
+    {
+      "file": "tk.html",
+      "title": "TK Ulil Albab",
+      "headings": [
+        "TK Ulil Albab",
+        "Tentang Kami",
+        "Mengapa Memilih Kami?",
+        "Guru Berkualitas",
+        "Lingkungan Menyenangkan",
+        "Pendekatan Deep Learning",
+        "Galeri Kegiatan"
+      ]
+    },
+    {
+      "file": "sd.html",
+      "title": "SDIT AL-QURAN ULIL ALBAB",
+      "headings": [
+        "SDIT AL-QURAN ULIL ALBAB",
+        "Iskandar, S.Pd. Gr.",
+        "Tentang SD Ulil Albab",
+        "Program Unggulan",
+        "Kurikum Berbasis Karakter",
+        "Aktivitas Ekstrakurikuler",
+        "Lingkungan Belajar Nyaman"
+      ]
+    },
+    {
+      "file": "smp.html",
+      "title": "SMPIT ULIL ALBAB",
+      "headings": [
+        "SMPIT ULIL ALBAB",
+        "Wihastari,S.Pd",
+        "Tentang SMPIT Ulil Albab",
+        "Program Unggulan",
+        "Kurikum Berbasis Karakter",
+        "Aktivitas Ekstrakurikuler",
+        "Lingkungan Belajar Nyaman"
+      ]
+    },
+    {
+      "file": "sma.html",
+      "title": "SMAIT Ulil Albab",
+      "headings": [
+        "SMAIT Ulil Albab",
+        "Nur Alifiyanti, S.Pd., M.Pd.",
+        "Tentang SMAIT Ulil Albab",
+        "Alumni SMAIT Ulil Albab Diterima di PTN Ternama"
+      ]
+    },
+    {
+      "file": "uanews/isra_miraj.html",
+      "title": "SMPIT Ulil Albab Gelar Peringatan Isra Miraj 2025 dengan Berbagai\n          Lomba Islami",
+      "headings": [
+        "Peringatan Isra Miraj 2025",
+        "SMPIT Ulil Albab Gelar Peringatan Isra Miraj 2025 dengan Berbagai Lomba Islami"
+      ]
+    },
+    {
+      "file": "uanews/Milad_25.html",
+      "title": "SIT Ulil Albab Rayakan 25 Tahun Dedikasi dalam Pendidikan",
+      "headings": [
+        "Milad ke-25 SIT Ulil Albab",
+        "SIT Ulil Albab Rayakan 25 Tahun Dedikasi dalam Pendidikan"
+      ]
+    },
+    {
+      "file": "uanews/semarak_milad25.html",
+      "title": "Semarak Milad ke-25 Yayasan Ulil Albab Bekasi, Hadirkan Berbagai Kegiatan Seru dan Bermanfaat",
+      "headings": [
+        "Milad ke-25 Yayasan Ulil Albab Bekasi",
+        "Semarak Milad ke-25 Yayasan Ulil Albab Bekasi, Hadirkan Berbagai Kegiatan Seru dan Bermanfaat"
+      ]
+    },
+    {
+      "file": "uanews/seminar_karil.html",
+      "title": "Siswa Kelas 12 SMAIT Ulil Albab Gelar Seminar Hasil Karya Ilmiah",
+      "headings": [
+        "Seminar Hasil Karya Ilmiah",
+        "Siswa Kelas 12 SMAIT Ulil Albab Gelar Seminar Hasil Karya Ilmiah"
+      ]
+    },
+    {
+      "file": "uanews/marketday.html",
+      "restored": "gallery and documentation link"
+    },
+    {
+      "file": "uanews/raker.html",
+      "restored": "gallery and documentation link"
+    },
+    {
+      "file": "index.html",
+      "restored": "3 news cards from source"
+    },
+    {
+      "file": "blog-cat-masonry.html",
+      "restored": "3 news cards from source"
+    },
+    {
+      "file": "sejarah.html",
+      "restored": "original foundation photo"
+    }
+  ],
+  "restoredExistingAssetUsages": [
+    {
+      "page": "/404.html",
+      "source": "404.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/blog-cat-masonry.html",
+      "source": "blog-cat-masonry.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/sd.html",
+      "source": "sd.html",
+      "sourceLine": 48,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/tk.html",
+      "source": "tk.html",
+      "sourceLine": 55,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/anbk.html",
+      "source": "uanews/anbk.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/bromo.html",
+      "source": "uanews/bromo.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/campleadersip.html",
+      "source": "uanews/campleadersip.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/fathersday.html",
+      "source": "uanews/fathersday.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/GTC.html",
+      "source": "uanews/GTC.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/its.html",
+      "source": "uanews/its.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/kolosaldrama.html",
+      "source": "uanews/kolosaldrama.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/mabit.html",
+      "source": "uanews/mabit.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/marketday.html",
+      "source": "uanews/marketday.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/maulid.html",
+      "source": "uanews/maulid.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/museumangkot.html",
+      "source": "uanews/museumangkot.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/pawai.html",
+      "source": "uanews/pawai.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/puskesmas.html",
+      "source": "uanews/puskesmas.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/raker.html",
+      "source": "uanews/raker.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/safarisosial.html",
+      "source": "uanews/safarisosial.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/sdita.html",
+      "source": "uanews/sdita.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/supervisi.html",
+      "source": "uanews/supervisi.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/unbraw.html",
+      "source": "uanews/unbraw.html",
+      "sourceLine": 43,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/upacara17.html",
+      "source": "uanews/upacara17.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/walimatu.html",
+      "source": "uanews/walimatu.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/smp.html",
+      "source": "smp.html",
+      "sourceLine": 48,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/sma.html",
+      "source": "sma.html",
+      "sourceLine": 25,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/isra_miraj.html",
+      "source": "uanews/isra_miraj.html",
+      "sourceLine": 66,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/Milad_25.html",
+      "source": "uanews/Milad_25.html",
+      "sourceLine": 66,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/semarak_milad25.html",
+      "source": "uanews/semarak_milad25.html",
+      "sourceLine": 41,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    },
+    {
+      "page": "/uanews/seminar_karil.html",
+      "source": "uanews/seminar_karil.html",
+      "sourceLine": 66,
+      "href": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+      "asset": "assets/custom/images/whatsapp (1) 2.png",
+      "component": "src/components/WhatsAppButton.jsx"
+    }
+  ]
+}

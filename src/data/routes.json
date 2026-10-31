@@ -1,0 +1,615 @@
+{
+  "/404.html": {
+    "path": "/404.html",
+    "component": "404",
+    "title": "404 — Halaman belum tersedia",
+    "description": "404 — Halaman belum tersedia",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": true,
+    "styles": [],
+    "canonical": "/404.html"
+  },
+  "/anbk.html": {
+    "path": "/anbk.html",
+    "component": "anbk",
+    "title": "Asesmen Nasional Berbasis Komputer (ANBK), Mengukur Mutu Sekolah | SIT Ulil Albab",
+    "description": "Dahulu, kita mengenal istilah Ujian Nasional (UN) yaitu ujian tertulis bagi siswa-siswi tingkat akhir setiap jenjang Pendidikan, mulai dari SD, SMP, SMA dan sederajat. Uj",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/anbk.html"
+  },
+  "/biodata.html": {
+    "path": "/biodata.html",
+    "component": "biodata",
+    "title": "Biodata — Muhammad Rizqi Maulana",
+    "description": "Biodata — Muhammad Rizqi Maulana",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": true,
+    "noindex": true,
+    "styles": [
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css",
+      "/styles/pages/biodata.css"
+    ],
+    "canonical": "/biodata.html"
+  },
+  "/blog-cat-masonry.html": {
+    "path": "/blog-cat-masonry.html",
+    "component": "blog-cat-masonry",
+    "title": "Info Ulil Albab | SIT Ulil Albab",
+    "description": "Info Ulil Albab | SIT Ulil Albab",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/blog-cat-masonry.html"
+  },
+  "/blog-details2.html": {
+    "path": "/blog-details2.html",
+    "component": "blog-details2",
+    "title": "DRAMA KOLOSAL SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "DRAMA KOLOSAL SIT ULIL ALBAB | SIT Ulil Albab",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/kolosaldrama.html"
+  },
+  "/form-ppdb.html": {
+    "path": "/form-ppdb.html",
+    "component": "form-ppdb",
+    "title": "Pendaftaran PPDB 2026/2027 | SIT Ulil Albab",
+    "description": "Formulir pendaftaran PPDB SIT Ulil Albab tahun ajaran 2026/2027 untuk TKIT, SDIT, SMPIT, dan SMAIT.",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6281314180955&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/form-ppdb.html"
+  },
+  "/header2-light.html": {
+    "path": "/header2-light.html",
+    "component": "header2-light",
+    "title": "SIT Ulil Albab",
+    "description": "SIT Ulil Albab",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": true,
+    "styles": [],
+    "canonical": "/header2-light.html"
+  },
+  "/home4.html": {
+    "path": "/home4.html",
+    "component": "home4",
+    "title": "SIT Ulil Albab",
+    "description": "SIT Ulil Albab",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": true,
+    "styles": [],
+    "canonical": "/home4.html"
+  },
+  "/index.html": {
+    "path": "/index.html",
+    "component": "index",
+    "title": "SIT Ulil Albab",
+    "description": "Lembaga pendidikan islam yang membentuk manusia yang unggul dan akhlak islami. Informasi PPDB tahun ajaran 2026/2027.",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/index.html"
+  },
+  "/kolosaldrama.html": {
+    "path": "/kolosaldrama.html",
+    "component": "kolosaldrama",
+    "title": "DRAMA KOLOSAL SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Sekolah Islam Terpadu (SIT) Ulil Albab kembali menunjukkan komitmennya dalam membangun karakter dan semangat kebangsaan melalui sebuah acara yang spektakuler. Siswa dan s",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/kolosaldrama.html"
+  },
+  "/maulkuadrat.html": {
+    "path": "/maulkuadrat.html",
+    "component": "maulkuadrat",
+    "title": "Biodata — Muhammad Rizqi Maulana",
+    "description": "Biodata — Muhammad Rizqi Maulana",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": true,
+    "noindex": true,
+    "styles": [
+      "/meyawo/public_html/assets/vendors/themify-icons/css/themify-icons.css",
+      "/meyawo/public_html/assets/css/meyawo.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    ],
+    "canonical": "/maulkuadrat.html"
+  },
+  "/meyawo/public_html/maulkuadrat.html": {
+    "path": "/meyawo/public_html/maulkuadrat.html",
+    "component": "meyawo/public_html/maulkuadrat",
+    "title": "Biodata — Muhammad Rizqi Maulana",
+    "description": "Biodata — Muhammad Rizqi Maulana",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": true,
+    "noindex": true,
+    "styles": [
+      "/meyawo/public_html/assets/vendors/themify-icons/css/themify-icons.css",
+      "/meyawo/public_html/assets/css/meyawo.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    ],
+    "canonical": "/meyawo/public_html/maulkuadrat.html"
+  },
+  "/pawai.html": {
+    "path": "/pawai.html",
+    "component": "pawai",
+    "title": "PAWAI SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Dalam rangka memperingati Hari Kemerdekaan Indonesia ke-79, Sekolah Islam Terpadu (SIT) Ulil Albab menggelar acara karnaval yang penuh warna dan keceriaan pada tanggal 15",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/pawai.html"
+  },
+  "/ppdb.html": {
+    "path": "/ppdb.html",
+    "component": "ppdb",
+    "title": "Portal PPDB 2026/2027 | SIT Ulil Albab",
+    "description": "Informasi dan pendaftaran PPDB SIT Ulil Albab tahun ajaran 2026/2027 untuk TKIT, SDIT, SMPIT, dan SMAIT.",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum, saya mau bertanya tentang PPDB SIT Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/ppdb.html"
+  },
+  "/sd.html": {
+    "path": "/sd.html",
+    "component": "sd",
+    "title": "SDIT AL-QURAN ULIL ALBAB",
+    "description": "SD Ulil Albab merupakan sekolah dasar yang berkomitmen untuk menyediakan pendidikan berkualitas tinggi dengan pendekatan holistik. Kami percaya bahwa setiap anak memiliki",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/units.css"
+    ],
+    "canonical": "/sd.html"
+  },
+  "/sejarah.html": {
+    "path": "/sejarah.html",
+    "component": "sejarah",
+    "title": "Yayasan SIT Ulil Albab | SIT Ulil Albab",
+    "description": "SIT Ulil Albab didirikan dengan visi untuk menjadi lembaga pendidikan unggul yang berlandaskan nilai-nilai Islami. Bermula dari sebuah kelompok kecil yang berkomitmen dal",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/sejarah.html"
+  },
+  "/supervisi.html": {
+    "path": "/supervisi.html",
+    "component": "supervisi",
+    "title": "SUPERVISI UNTUK MENJAGA MUTU PEMBELAJARAN | SIT Ulil Albab",
+    "description": "Sebagai lembaga pendidikan yang menerapkan metode UMMI dalam pembelajaran Al Qur'an, maka SIT Ulil Albab terus berkoordinasi dengan pengurus UMMI Bekasi Raya. Diantaranya",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/supervisi.html"
+  },
+  "/tk.html": {
+    "path": "/tk.html",
+    "component": "tk",
+    "title": "TK Ulil Albab",
+    "description": "TK Ulil Albab adalah lembaga pendidikan di bawah naungan Yayasan Ulil Albab Bekasi. Kami memiliki visi untuk menciptakan anak-anak yang cerdas, kreatif, dan berakhlak mul",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/units.css"
+    ],
+    "canonical": "/tk.html"
+  },
+  "/uanews/anbk.html": {
+    "path": "/uanews/anbk.html",
+    "component": "uanews/anbk",
+    "title": "Asesmen Nasional Berbasis Komputer (ANBK), Mengukur Mutu Sekolah | SIT Ulil Albab",
+    "description": "Dahulu, kita mengenal istilah Ujian Nasional (UN) yaitu ujian tertulis bagi siswa-siswi tingkat akhir setiap jenjang Pendidikan, mulai dari SD, SMP, SMA dan sederajat. Uj",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/anbk.html"
+  },
+  "/uanews/bromo.html": {
+    "path": "/uanews/bromo.html",
+    "component": "uanews/bromo",
+    "title": "Perjalanan Menuju Bromo | SIT Ulil Albab",
+    "description": "Perjalanan Menuju Bromo | SIT Ulil Albab",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/campus-photo.css"
+    ],
+    "canonical": "/uanews/bromo.html"
+  },
+  "/uanews/campleadersip.html": {
+    "path": "/uanews/campleadersip.html",
+    "component": "uanews/campleadersip",
+    "title": "Quran Leadership Camp 2024 | SIT Ulil Albab",
+    "description": "Subang, 5-7 November 2024 – SMPIT Ulil Albab kembali mengadakan kegiatan Quran Leadership Camp (QLC) sebagai bagian dari program pembentukan karakter islami dan kepemimpi",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/campleadersip.html"
+  },
+  "/uanews/fathersday.html": {
+    "path": "/uanews/fathersday.html",
+    "component": "uanews/fathersday",
+    "title": "Father's Day 2024 TKIT Ulil Albab | SIT Ulil Albab",
+    "description": "Father's Day 2024: TKIT Ulil Albab Rayakan \"Ayahku Pejuang\" dengan Penuh Cinta Ulil Albab, 30 November 2024 – Dalam rangka merayakan Father's Day 2024, TKIT Ulil Albab me",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/fathersday.html"
+  },
+  "/uanews/GTC.html": {
+    "path": "/uanews/GTC.html",
+    "component": "uanews/GTC",
+    "title": "Goes To Campus | SIT Ulil Albab",
+    "description": "Goes To Campus | SIT Ulil Albab",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/uanews-GTC.css"
+    ],
+    "canonical": "/uanews/GTC.html"
+  },
+  "/uanews/its.html": {
+    "path": "/uanews/its.html",
+    "component": "uanews/its",
+    "title": "ITS, Membumi Untuk Mendunia | SIT Ulil Albab",
+    "description": "ITS, Membumi Untuk Mendunia | SIT Ulil Albab",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/campus-photo.css"
+    ],
+    "canonical": "/uanews/its.html"
+  },
+  "/uanews/kolosaldrama.html": {
+    "path": "/uanews/kolosaldrama.html",
+    "component": "uanews/kolosaldrama",
+    "title": "DRAMA KOLOSAL SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Sekolah Islam Terpadu (SIT) Ulil Albab kembali menunjukkan komitmennya dalam membangun karakter dan semangat kebangsaan melalui sebuah acara yang spektakuler. Siswa dan s",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/article-gallery.css"
+    ],
+    "canonical": "/uanews/kolosaldrama.html"
+  },
+  "/uanews/mabit.html": {
+    "path": "/uanews/mabit.html",
+    "component": "uanews/mabit",
+    "title": "Mabit Keluarga Besar SIT Ulil Albab | SIT Ulil Albab",
+    "description": "Ulil Albab, 2024 – Alhamdulillah, kegiatan Mabit (Malem Bina Iman dan Takwa) yang diselenggarakan oleh SIT Ulil Albab kali ini berlangsung dengan penuh hikmah dan kebersa",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/uanews-mabit.css"
+    ],
+    "canonical": "/uanews/mabit.html"
+  },
+  "/uanews/marketday.html": {
+    "path": "/uanews/marketday.html",
+    "component": "uanews/marketday",
+    "title": "Market Day SDIT Al-Qur'an Ulil Albab | SIT Ulil Albab",
+    "description": "Ulil Albab, 2024 – Market Day SDIT Al-Qur'an Ulil Albab kali ini berlangsung dengan penuh semangat dan keceriaan, menjadi salah satu momen berharga dalam kalender kegiata",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/marketday.html"
+  },
+  "/uanews/maulid.html": {
+    "path": "/uanews/maulid.html",
+    "component": "uanews/maulid",
+    "title": "Peringatan Maulid Nabi Muhammad SAW | SIT Ulil Albab",
+    "description": "12 Rabiul Awwal, ummat Islam mengenalnya sebagai tanggal kelahiran Nabi Muhammad SAW, kala itu belum ada perhitungan tahun, dan baru di tandai dengan adanya peristiwa-per",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/article-gallery.css"
+    ],
+    "canonical": "/uanews/maulid.html"
+  },
+  "/uanews/museumangkot.html": {
+    "path": "/uanews/museumangkot.html",
+    "component": "uanews/museumangkot",
+    "title": "Museum Angkot | SIT Ulil Albab",
+    "description": "Museum Angkot | SIT Ulil Albab",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/campus-photo.css"
+    ],
+    "canonical": "/uanews/museumangkot.html"
+  },
+  "/uanews/pawai.html": {
+    "path": "/uanews/pawai.html",
+    "component": "uanews/pawai",
+    "title": "PAWAI SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Dalam rangka memperingati Hari Kemerdekaan Indonesia ke-79, Sekolah Islam Terpadu (SIT) Ulil Albab menggelar acara karnaval yang penuh warna dan keceriaan pada tanggal 15",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/article-gallery.css"
+    ],
+    "canonical": "/uanews/pawai.html"
+  },
+  "/uanews/puskesmas.html": {
+    "path": "/uanews/puskesmas.html",
+    "component": "uanews/puskesmas",
+    "title": "Pemberian TTD REMATRI dan Cek HB Bersama Puskesmas Wanasari | SIT Ulil Albab",
+    "description": "Bekasi, 30 September 2024 – Dalam rangka meningkatkan kesehatan remaja putri, SMPIT Ulil Albab bekerja sama dengan Puskesmas Wanasari menyelenggarakan kegiatan pemberian ",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/puskesmas.html"
+  },
+  "/uanews/raker.html": {
+    "path": "/uanews/raker.html",
+    "component": "uanews/raker",
+    "title": "Rapat Kerja Tahunan SIT Ulil Albab 2025 | SIT Ulil Albab",
+    "description": "Ulil Albab, 2025 – SIT Ulil Albab menggelar Rapat Kerja Tahunan yang menjadi momentum penting dalam menyusun strategi terbaik untuk mewujudkan visi dan misi pendidikan ya",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/raker.html"
+  },
+  "/uanews/safarisosial.html": {
+    "path": "/uanews/safarisosial.html",
+    "component": "uanews/safarisosial",
+    "title": "Safari Sosial SMPIT Ulil Albab di Yayasan Al Fajar Berseri, Tambun Selatan | SIT Ulil Albab",
+    "description": "Tambun Selatan Bekasi, 24 September 2024 SMPIT Ulil Albab kembali menggelar kegiatan safari sosial sebagai wujud kepedulian terhadap masyarakat, kali ini dengan mengunjun",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/safarisosial.html"
+  },
+  "/uanews/sdita.html": {
+    "path": "/uanews/sdita.html",
+    "component": "uanews/sdita",
+    "title": "SDIT Al-Qur'an Ulil Albab Raih Akreditasi A | SIT Ulil Albab",
+    "description": "Ulil Albab, 2024 – SDIT Al-Qur'an Ulil Albab dengan bangga mengumumkan keberhasilan meraih Akreditasi A, sebuah prestasi yang patut dibanggakan dan menjadi tonggak pentin",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/sdita.html"
+  },
+  "/uanews/supervisi.html": {
+    "path": "/uanews/supervisi.html",
+    "component": "uanews/supervisi",
+    "title": "SUPERVISI UNTUK MENJAGA MUTU PEMBELAJARAN | SIT Ulil Albab",
+    "description": "Sebagai lembaga pendidikan yang menerapkan metode UMMI dalam pembelajaran Al Qur'an, maka SIT Ulil Albab terus berkoordinasi dengan pengurus UMMI Bekasi Raya. Diantaranya",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/supervisi.html"
+  },
+  "/uanews/unbraw.html": {
+    "path": "/uanews/unbraw.html",
+    "component": "uanews/unbraw",
+    "title": "Get To Know UNBRAW | SIT Ulil Albab",
+    "description": "Get To Know UNBRAW | SIT Ulil Albab",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/campus-photo.css"
+    ],
+    "canonical": "/uanews/unbraw.html"
+  },
+  "/uanews/upacara17.html": {
+    "path": "/uanews/upacara17.html",
+    "component": "uanews/upacara17",
+    "title": "UPACARA 17 AGUSTUS 2024 SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Sekolah Islam Terpadu Ulil Albab melaksanakan upacara pengibaran bendera merah putih dalam rangka memperingati hari kemerdekaan Repulik Indonesia yang ke 79. Upacara 17 A",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/article-gallery.css"
+    ],
+    "canonical": "/uanews/upacara17.html"
+  },
+  "/uanews/walimatu.html": {
+    "path": "/uanews/walimatu.html",
+    "component": "uanews/walimatu",
+    "title": "WalimatuSyafar Umroh Wihastari, S.Pd. | SIT Ulil Albab",
+    "description": "Bekasi, 13 Oktober 2024 – Suasana haru dan bahagia menyelimuti acara Walimatusyafar yang diselenggarakan oleh Yayasan SIT Ulil Albab untuk melepas keberangkatan Ibu Wihas",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/walimatu.html"
+  },
+  "/upacara17.html": {
+    "path": "/upacara17.html",
+    "component": "upacara17",
+    "title": "UPACARA 17 AGUSTUS 2024 SIT ULIL ALBAB | SIT Ulil Albab",
+    "description": "Sekolah Islam Terpadu Ulil Albab melaksanakan upacara pengibaran bendera merah putih dalam rangka memperingati hari kemerdekaan Repulik Indonesia yang ke 79. Upacara 17 A",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": null,
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/upacara17.html"
+  },
+  "/visimisi.html": {
+    "path": "/visimisi.html",
+    "component": "visimisi",
+    "title": "VISI & MISI | SIT Ulil Albab",
+    "description": "1. Menjadikan keunggulan bidang Al-Qur'an dan Sains sebagai landasan pendidikan.",
+    "phone": "+62 821-2203-7474 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/visimisi.html"
+  },
+  "/smp.html": {
+    "path": "/smp.html",
+    "component": "smp",
+    "title": "SMPIT ULIL ALBAB",
+    "description": "SMPIT Ulil Albab merupakan sekolah menengah pertama yang berkomitmen untuk menyediakan pendidikan berkualitas tinggi dengan pendekatan holistik. Kami percaya bahwa setiap",
+    "noindex": false,
+    "styles": [
+      "/styles/pages/units.css"
+    ],
+    "canonical": "/smp.html",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+  },
+  "/sma.html": {
+    "path": "/sma.html",
+    "component": "sma",
+    "title": "SMAIT Ulil Albab",
+    "description": "SMAIT Ulil Albab berkomitmen memberikan pendidikan berbasis Al-Quran yang dipadukan dengan kurikulum nasional dan internasional. Kami berfokus pada pembentukan karakter i",
+    "noindex": false,
+    "styles": [
+      "/styles/pages/units.css"
+    ],
+    "canonical": "/sma.html",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab"
+  },
+  "/uanews/isra_miraj.html": {
+    "path": "/uanews/isra_miraj.html",
+    "component": "uanews/isra_miraj",
+    "title": "SMPIT Ulil Albab Gelar Peringatan Isra Miraj 2025 dengan Berbagai\n          Lomba Islami",
+    "description": "Dalam rangka memperingati Isra Miraj Nabi Muhammad SAW, SMPIT Ulil Albab menyelenggarakan berbagai kegiatan islami yang melibatkan seluruh siswa. Acara ini berlangsung di",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/isra_miraj.html"
+  },
+  "/uanews/Milad_25.html": {
+    "path": "/uanews/Milad_25.html",
+    "component": "uanews/Milad_25",
+    "title": "SIT Ulil Albab Rayakan 25 Tahun Dedikasi dalam Pendidikan",
+    "description": "Ulil Albab,Cibitung -Sekolah Islam Terpadu (SIT) Ulil Albab merayakan 25 tahun perjalanan penuh inspirasi dalam mencetak generasi unggul, berakhlak mulia, dan berprestasi",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/Milad_25.html"
+  },
+  "/uanews/semarak_milad25.html": {
+    "path": "/uanews/semarak_milad25.html",
+    "component": "uanews/semarak_milad25",
+    "title": "Semarak Milad ke-25 Yayasan Ulil Albab Bekasi, Hadirkan Berbagai Kegiatan Seru dan Bermanfaat",
+    "description": "Dalam rangka merayakan Milad ke-25, Yayasan Ulil Albab Bekasi menggelar berbagai kegiatan yang menarik dan bermanfaat bagi seluruh komunitas sekolah serta masyarakat seki",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/semarak_milad25.html"
+  },
+  "/uanews/seminar_karil.html": {
+    "path": "/uanews/seminar_karil.html",
+    "component": "uanews/seminar_karil",
+    "title": "Siswa Kelas 12 SMAIT Ulil Albab Gelar Seminar Hasil Karya Ilmiah",
+    "description": "SMAIT ULIL ALBAB-Siswa-siswi kelas 12 SMAIT Ulil Albab menunjukkan kreativitas, inovasi, dan semangat belajar yang luar biasa dalam Seminar Hasil Karya Ilmiah yang digela",
+    "phone": "+62 813-1418-0955 (Ibu Lina)",
+    "whatsapp": "https://api.whatsapp.com/send?phone=+6282122037474&text=Assalamu'alaikum saya mau bertanya tentang PPDB Ulil Albab",
+    "standalone": false,
+    "noindex": false,
+    "styles": [],
+    "canonical": "/uanews/seminar_karil.html"
+  },
+  "/perpustakaan.html": {
+    "path": "/perpustakaan.html",
+    "component": "perpustakaan",
+    "title": "Perpustakaan SMP IT Ulil Albab Bekasi",
+    "description": "Portal Perpustakaan Digital SMP IT Ulil Albab Bekasi. NPP: 3216071D2000004.",
+    "layout": "library",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/library.css"
+    ],
+    "canonical": "/perpustakaan.html"
+  },
+  "/perpustakaan-organisasi.html": {
+    "path": "/perpustakaan-organisasi.html",
+    "component": "perpustakaan-organisasi",
+    "title": "Organisasi | Perpustakaan SMP IT Ulil Albab Bekasi",
+    "description": "Struktur organisasi Perpustakaan SMP IT Ulil Albab Bekasi. NPP: 3216071D2000004.",
+    "layout": "library",
+    "standalone": false,
+    "noindex": false,
+    "styles": [
+      "/styles/pages/library.css"
+    ],
+    "canonical": "/perpustakaan-organisasi.html"
+  }
+}

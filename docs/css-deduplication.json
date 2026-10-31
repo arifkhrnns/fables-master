@@ -1,0 +1,20 @@
+[
+  {
+    "name": "campus-photo",
+    "files": [
+      "uanews-bromo",
+      "uanews-its",
+      "uanews-museumangkot",
+      "uanews-unbraw"
+    ]
+  },
+  {
+    "name": "article-gallery",
+    "files": [
+      "uanews-kolosaldrama",
+      "uanews-maulid",
+      "uanews-pawai",
+      "uanews-upacara17"
+    ]
+  }
+]

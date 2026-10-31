@@ -1,0 +1,4065 @@
+[
+  {
+    "file": ".vscode/settings.json",
+    "bytes": 42,
+    "classification": "used",
+    "action": "keep",
+    "reason": "Lisensi/config awal dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "404.html",
+    "bytes": 14885,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "about1.html",
+    "bytes": 77390,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "about2.html",
+    "bytes": 51489,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "about3.html",
+    "bytes": 50889,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "anbk.html",
+    "bytes": 40775,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "assets/css",
+    "bytes": 2,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/css/custom-responsive.css",
+    "bytes": 31434,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/css/custom-responsive.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/css/custom.css",
+    "bytes": 100085,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/css/custom.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/css/fables-icons.css",
+    "bytes": 4453,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/css/fables-icons.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/demo/demo1.png",
+    "bytes": 43950,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/demo/demo2.png",
+    "bytes": 34075,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/demo/demo3.png",
+    "bytes": 26635,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/demo/demo4.png",
+    "bytes": 46126,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/fonts/fables.eot",
+    "bytes": 23760,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/fonts/fables.eot",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/fonts/fables.svg",
+    "bytes": 97626,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/fonts/fables.svg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/fonts/fables.ttf",
+    "bytes": 23600,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/fonts/fables.ttf",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/fonts/fables.woff",
+    "bytes": 23676,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/fonts/fables.woff",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/akhlak mulia.jpg",
+    "bytes": 29697,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/akhlak mulia.jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/akhlaq mulia.png",
+    "bytes": 14874,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/akhlaq mulia.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/anbk/img1.png",
+    "bytes": 307747,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/anbk/img1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/anbk/img2.png",
+    "bytes": 333612,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/anbk/img2.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/anbk/img3.png",
+    "bytes": 286249,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/anbk/img3.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/anbk/img4.png",
+    "bytes": 235256,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/anbk/img4.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Aqidah lurus.png",
+    "bytes": 9022,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Aqidah lurus.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/bg-blog.jpg",
+    "bytes": 163825,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/bg-blog.jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/bg-blog.png",
+    "bytes": 770406,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/bg-blog.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/BG.jpg",
+    "bytes": 259390,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/BG.jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF0309.JPG",
+    "bytes": 4390561,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF0309.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF2350.JPG",
+    "bytes": 5500150,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF2350.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF4075.JPG",
+    "bytes": 1063829,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF4075.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF5855.JPG",
+    "bytes": 5759596,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF5855.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF7459.JPG",
+    "bytes": 4218726,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF7459.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF9274.JPG",
+    "bytes": 5825577,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF9274.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF9403 1.png",
+    "bytes": 129022,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF9403 1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF9424 1.png",
+    "bytes": 1061825,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/DSCF9424 1.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF9424.JPG",
+    "bytes": 4837100,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF9424.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/DSCF9453.JPG",
+    "bytes": 2892319,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/DSCF9453.JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/futsal.png",
+    "bytes": 123912,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/futsal.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/karate.png",
+    "bytes": 126715,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/karate.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/KIR.png",
+    "bytes": 122400,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/KIR.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/nasyid.png",
+    "bytes": 129319,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/nasyid.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/panahan.png",
+    "bytes": 116769,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/panahan.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/paskib.png",
+    "bytes": 137791,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/ekstrakulikuler/paskib.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/pramuka.png",
+    "bytes": 149341,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/pramuka.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/tarisaman.png",
+    "bytes": 145325,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/tarisaman.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ekstrakulikuler/voli.png",
+    "bytes": 127903,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ekstrakulikuler/voli.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (1).JPG",
+    "bytes": 4133377,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (1).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (10).JPG",
+    "bytes": 4353854,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (10).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (11).JPG",
+    "bytes": 4240867,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (11).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (2).JPG",
+    "bytes": 4189404,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (2).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (3).JPG",
+    "bytes": 4528129,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (3).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (4).JPG",
+    "bytes": 4277999,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (4).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (5).JPG",
+    "bytes": 4193432,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (5).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (6).JPG",
+    "bytes": 4401447,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (6).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (7).JPG",
+    "bytes": 4706600,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (7).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (8).JPG",
+    "bytes": 4651971,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (8).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/fathersday/1 (9).JPG",
+    "bytes": 4682176,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/fathersday/1 (9).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/FUTSAL SD (2).JPG",
+    "bytes": 4843332,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/FUTSAL SD (2).JPG",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Group 1 (2).png",
+    "bytes": 7087,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Group 1 (2).png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Group 2 (2).png",
+    "bytes": 8001,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Group 2 (2).png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Group 2.png",
+    "bytes": 13173,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Group 2.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/bromo.jpg",
+    "bytes": 17724588,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/bromo.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/GTC.png",
+    "bytes": 413657,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/GTC.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/its.jpg",
+    "bytes": 503780,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/its.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/museum angkot.jpg",
+    "bytes": 180600,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/museum angkot.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/Thumbnail instagram (12).png",
+    "bytes": 1082419,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/Thumbnail instagram (12).png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/ub.png",
+    "bytes": 1702374,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/ub.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/GTC/walimatu.png",
+    "bytes": 1121529,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/GTC/walimatu.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ibadah 1.png",
+    "bytes": 35068,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/ibadah 1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/ibadah.jpeg",
+    "bytes": 21009,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/ibadah.jpeg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/idea.png",
+    "bytes": 22768,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/idea.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/IMG_0144.jpg",
+    "bytes": 1289399,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/IMG_0144.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/KARATE SDIT (3).JPG",
+    "bytes": 4190654,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/KARATE SDIT (3).JPG",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/kolosal drama/DSCF2831 1.png",
+    "bytes": 470552,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/kolosal drama/DSCF2831 1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/kolosal drama/DSCF2923 1.png",
+    "bytes": 533921,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/kolosal drama/DSCF2923 1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/kolosal drama/DSCF2923.JPG",
+    "bytes": 5366719,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/kolosal drama/DSCF2923.JPG",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/kolosal drama/image 9.png",
+    "bytes": 522373,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/kolosal drama/image 9.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/facebook (1).png",
+    "bytes": 4805,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/facebook (1).png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Footage 1.png",
+    "bytes": 35422,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Footage 1.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Footage 2.png",
+    "bytes": 34925,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Footage 2.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Footage channel.mp4",
+    "bytes": 1567396,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Footage channel.mp4",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Footage Live.psd",
+    "bytes": 1330246,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Footage Live.psd",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/instagram.png",
+    "bytes": 15261,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/instagram.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Komite.jpg",
+    "bytes": 249680,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Komite.jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Logo copy.png",
+    "bytes": 49530,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Logo copy.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/logo JSIT INDONESIA-1 (1) (1).png",
+    "bytes": 279206,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/logo JSIT INDONESIA-1 (1) (1).png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Logo PPDB SIT ULIL ALBAB.png",
+    "bytes": 37437,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Logo PPDB SIT ULIL ALBAB.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Logo SDIT Alqur;an.png",
+    "bytes": 462751,
+    "classification": "duplicate",
+    "action": "delete",
+    "duplicateOf": "assets/custom/images/logo_sd.png",
+    "reason": "Identik SHA-256 dengan salinan yang dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Logo SIT Ulil.png",
+    "bytes": 397433,
+    "classification": "duplicate",
+    "action": "delete",
+    "duplicateOf": "assets/custom/images/logo_yayasan.png",
+    "reason": "Identik SHA-256 dengan salinan yang dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Logo SMA terbaru (1).png",
+    "bytes": 928121,
+    "classification": "duplicate",
+    "action": "delete",
+    "duplicateOf": "assets/custom/images/logo_sma.png",
+    "reason": "Identik SHA-256 dengan salinan yang dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/logo smp.png",
+    "bytes": 896407,
+    "classification": "duplicate",
+    "action": "delete",
+    "duplicateOf": "assets/custom/images/logo_smp.png",
+    "reason": "Identik SHA-256 dengan salinan yang dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Socmed copy 2.png",
+    "bytes": 15024,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Socmed copy 2.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/Sosmed copy.png",
+    "bytes": 39214,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/Sosmed copy.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/web.png",
+    "bytes": 18625,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/web.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Logo Ulil/whatsapp.png",
+    "bytes": 9675,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Logo Ulil/whatsapp.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo.png",
+    "bytes": 5516,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/logo.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo_sd.png",
+    "bytes": 462751,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/logo_sd.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo_sma.png",
+    "bytes": 928121,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/logo_sma.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo_smp.png",
+    "bytes": 896407,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/logo_smp.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo_tk.jpg",
+    "bytes": 6883,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/logo_tk.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/logo_yayasan.png",
+    "bytes": 397433,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/logo_yayasan.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (1).JPG",
+    "bytes": 3715005,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (1).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (2).JPG",
+    "bytes": 3890400,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (2).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (3).JPG",
+    "bytes": 3858879,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (3).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (4).JPG",
+    "bytes": 4418222,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (4).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (5).JPG",
+    "bytes": 3935404,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (5).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (6).JPG",
+    "bytes": 4013126,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (6).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (7).JPG",
+    "bytes": 4511985,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (7).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/mabitsdm/1 (8).JPG",
+    "bytes": 3953030,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/mabitsdm/1 (8).JPG",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Mandiri.png",
+    "bytes": 23803,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Mandiri.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Market Day SDIT 2023 (58).jpg",
+    "bytes": 1548976,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Market Day SDIT 2023 (58).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Mask group.png",
+    "bytes": 1244,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Mask group.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/maulid/1.png",
+    "bytes": 445908,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/maulid/1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/maulid/2.png",
+    "bytes": 507702,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/maulid/2.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/maulid/3.png",
+    "bytes": 400572,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/maulid/3.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/maulid/4.png",
+    "bytes": 455456,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/maulid/4.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/maulid/5.png",
+    "bytes": 429386,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/maulid/5.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/PASKIB MUJAHIDAH (2).JPG",
+    "bytes": 1179122,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/PASKIB MUJAHIDAH (2).JPG",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/image 10.png",
+    "bytes": 760643,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/image 10.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-416.png",
+    "bytes": 448376,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-416.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-531.png",
+    "bytes": 484262,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-531.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-546.png",
+    "bytes": 465486,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-546.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-552.png",
+    "bytes": 444567,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-552.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-553.png",
+    "bytes": 497213,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-553.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/pawai/KARNAVAL 17AN 2024-95.png",
+    "bytes": 479580,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/pawai/KARNAVAL 17AN 2024-95.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Picsart_22-09-01_11-59-41-227.jpg",
+    "bytes": 355901,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Picsart_22-09-01_11-59-41-227.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/play-button.png",
+    "bytes": 1047,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/play-button.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Pramuka.jpg",
+    "bytes": 691516,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Pramuka.jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (1).jpg",
+    "bytes": 1924811,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (1).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (10).jpg",
+    "bytes": 3670592,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (10).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (11).jpg",
+    "bytes": 6146362,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (11).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (2).jpg",
+    "bytes": 5445977,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (2).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (3).jpg",
+    "bytes": 3924336,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (3).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (4).jpg",
+    "bytes": 5176100,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (4).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (5).jpg",
+    "bytes": 4591669,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (5).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (6).jpg",
+    "bytes": 2778048,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (6).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (7).jpg",
+    "bytes": 5780512,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (7).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (8).jpg",
+    "bytes": 2655769,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (8).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/qlc/1 (9).jpg",
+    "bytes": 3622952,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/qlc/1 (9).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/quran.png",
+    "bytes": 15557,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/quran.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/1.png",
+    "bytes": 420574,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/2.png",
+    "bytes": 467819,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/2.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/3.png",
+    "bytes": 477736,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/3.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/4.png",
+    "bytes": 482944,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/4.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/5.png",
+    "bytes": 529336,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/5.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/safari/6.png",
+    "bytes": 540417,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/safari/6.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/shalat.png",
+    "bytes": 9045,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/shalat.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/supervisi/img1.png",
+    "bytes": 249114,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/supervisi/img1.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/supervisi/img2.png",
+    "bytes": 336957,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/supervisi/img2.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/supervisi/img3.png",
+    "bytes": 366646,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/supervisi/img3.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/supervisi/img4.png",
+    "bytes": 341845,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/supervisi/img4.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/TARI SAMAN (2).jpg",
+    "bytes": 659367,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/TARI SAMAN (2).jpg",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/terampil.png",
+    "bytes": 19430,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/terampil.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/totr.jpg",
+    "bytes": 184329,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/totr.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/UPACARA (1).jpg",
+    "bytes": 1058288,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/UPACARA (1).jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/image 11.png",
+    "bytes": 339469,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/image 11.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-107.png",
+    "bytes": 394711,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-107.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-115.png",
+    "bytes": 484236,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-115.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-123.png",
+    "bytes": 436802,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-123.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-124.png",
+    "bytes": 308817,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-124.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-134.png",
+    "bytes": 393586,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-134.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-187.png",
+    "bytes": 542371,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-187.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-208.png",
+    "bytes": 479298,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-208.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-222.png",
+    "bytes": 477974,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-222.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-247.png",
+    "bytes": 466155,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-247.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-249.png",
+    "bytes": 468175,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-249.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-254.png",
+    "bytes": 467155,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-254.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-277.png",
+    "bytes": 559861,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-277.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-298.png",
+    "bytes": 436258,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-298.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-45.png",
+    "bytes": 427277,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-45.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-60.png",
+    "bytes": 512032,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-60.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-95-1.png",
+    "bytes": 528128,
+    "classification": "duplicate",
+    "action": "delete",
+    "duplicateOf": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-95.png",
+    "reason": "Identik SHA-256 dengan salinan yang dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/Upacara 17/UPACARA HUT RI 2024-95.png",
+    "bytes": 528128,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/Upacara 17/UPACARA HUT RI 2024-95.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/whatsapp (1) 1.png",
+    "bytes": 1506,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/assets/custom/images/whatsapp (1) 1.png",
+    "reason": "Foto/logo/video/desain sekolah tanpa referensi; belum pasti boleh dibuang",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/whatsapp (1) 2.png",
+    "bytes": 5448,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/whatsapp (1) 2.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/images/yayasan.jpeg",
+    "bytes": 151831,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/custom/images/yayasan.jpeg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/js/custom.js",
+    "bytes": 11943,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/custom/js/jquery-data-to.js",
+    "bytes": 3487,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/animate.css-master/animate.min.css",
+    "bytes": 56058,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/bootstrap/css/bootstrap-4-navbar.css",
+    "bytes": 4584,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/bootstrap/css/bootstrap-4-navbar.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/bootstrap/css/bootstrap.min.css",
+    "bytes": 144883,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/bootstrap/css/bootstrap.min.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/bootstrap/js/bootstrap-4-navbar.js",
+    "bytes": 1126,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/bootstrap/js/bootstrap.min.js",
+    "bytes": 48950,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fancybox-master/jquery.fancybox.min.css",
+    "bytes": 13735,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fancybox-master/jquery.fancybox.min.js",
+    "bytes": 59725,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/css/fontawesome-all.min.css",
+    "bytes": 34738,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/css/fontawesome-all.min.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-brands-400.eot",
+    "bytes": 98620,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-brands-400.eot",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-brands-400.svg",
+    "bytes": 508486,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-brands-400.svg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-brands-400.ttf",
+    "bytes": 98384,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-brands-400.ttf",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-brands-400.woff",
+    "bytes": 63712,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-brands-400.woff",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-brands-400.woff2",
+    "bytes": 54420,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-brands-400.woff2",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-regular-400.eot",
+    "bytes": 31156,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-regular-400.eot",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-regular-400.svg",
+    "bytes": 107565,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-regular-400.svg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-regular-400.ttf",
+    "bytes": 30928,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-regular-400.ttf",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-regular-400.woff",
+    "bytes": 14712,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-regular-400.woff",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-regular-400.woff2",
+    "bytes": 12220,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-regular-400.woff2",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-solid-900.eot",
+    "bytes": 102152,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-solid-900.eot",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-solid-900.svg",
+    "bytes": 379682,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-solid-900.svg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-solid-900.ttf",
+    "bytes": 101932,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-solid-900.ttf",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-solid-900.woff",
+    "bytes": 48704,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-solid-900.woff",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/fontawesome/webfonts/fa-solid-900.woff2",
+    "bytes": 38784,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/fontawesome/webfonts/fa-solid-900.woff2",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/imagesLoaded/imagesloaded.pkgd.min.js",
+    "bytes": 5600,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/jquery/jquery-3.3.1.min.js",
+    "bytes": 86929,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/jquery-circle-progress/circle-progress.min.js",
+    "bytes": 4454,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/jquery-circle-progress/circle.js",
+    "bytes": 1809,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/jQuery.countdown-master/jquery.countdown.min.js",
+    "bytes": 5390,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/loadscreen/css/spinkit.css",
+    "bytes": 24855,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/loadscreen/js/ju-loading-screen.js",
+    "bytes": 115,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/masonry/masonry.pkgd.min.js",
+    "bytes": 24175,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/OffCanvasMenuEffects/css/menu_sideslide.css",
+    "bytes": 4489,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/OffCanvasMenuEffects/js/classie.js",
+    "bytes": 1915,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/OffCanvasMenuEffects/js/main.js",
+    "bytes": 1092,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/owlcarousel/owl.carousel.min.css",
+    "bytes": 2941,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/owlcarousel/owl.carousel.min.js",
+    "bytes": 42772,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/owlcarousel/owl.theme.default.min.css",
+    "bytes": 941,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/assets/vendor/owlcarousel/owl.theme.default.min.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/owlcarousel/owl.video.play.png",
+    "bytes": 4976,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/popper/popper.min.js",
+    "bytes": 20744,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/portfolio-filter-gallery/jquery.isotope.min.js",
+    "bytes": 15977,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.css",
+    "bytes": 1069,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/portfolio-filter-gallery/portfolio-filter-gallery.js",
+    "bytes": 757,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/range-slider/range-slider.css",
+    "bytes": 6514,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/range-slider/range-slider.js",
+    "bytes": 12094,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/timeline/jquery.timelify.js",
+    "bytes": 1799,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/timeline/modernizr.js",
+    "bytes": 52770,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/timeline/timelify.css",
+    "bytes": 6267,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/timeline/timeline.css",
+    "bytes": 9457,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/timeline/timeline.js",
+    "bytes": 1317,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/video-background/jquery.mb.YTPlayer.js",
+    "bytes": 109577,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/video-background/video-background.css",
+    "bytes": 197,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "assets/vendor/WOW-master/dist/wow.min.js",
+    "bytes": 8416,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "biodata.html",
+    "bytes": 5269,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "blog-cat-masonry.html",
+    "bytes": 53895,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "blog-cat1.html",
+    "bytes": 50900,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-cat2.html",
+    "bytes": 49718,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-cat3.html",
+    "bytes": 71251,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-details1.html",
+    "bytes": 43707,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-details2.html",
+    "bytes": 40193,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "blog-details3.html",
+    "bytes": 53887,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-single-img.html",
+    "bytes": 47241,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-single-slider.html",
+    "bytes": 48843,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-single-video.html",
+    "bytes": 48382,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog-timeLine.html",
+    "bytes": 43213,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "blog.html",
+    "bytes": 46172,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "comming-soon.html",
+    "bytes": 34801,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "contactus1.html",
+    "bytes": 36733,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "contactus2.html",
+    "bytes": 37598,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "contactus3.html",
+    "bytes": 38286,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "counters.html",
+    "bytes": 38858,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer1-bg-img.html",
+    "bytes": 60104,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer1-dark.html",
+    "bytes": 62292,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer1-light.html",
+    "bytes": 60154,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer2-bg-img.html",
+    "bytes": 60349,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer2-dark.html",
+    "bytes": 60296,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer2-light.html",
+    "bytes": 60247,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer3-bg-img.html",
+    "bytes": 60302,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer3-dark.html",
+    "bytes": 60290,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer3-light.html",
+    "bytes": 60403,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer4-bg-img.html",
+    "bytes": 59625,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer4-dark.html",
+    "bytes": 59606,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "footer4-light.html",
+    "bytes": 59549,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "form-ppdb.html",
+    "bytes": 24919,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "gallery-filter-masonry.html",
+    "bytes": 52526,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-filter.html",
+    "bytes": 52597,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-history.html",
+    "bytes": 46953,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-history2.html",
+    "bytes": 37161,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-single.html",
+    "bytes": 43817,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-timeline.html",
+    "bytes": 37699,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery-timeline2.html",
+    "bytes": 45900,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "gallery.html",
+    "bytes": 50537,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header-megamenu.html",
+    "bytes": 49723,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header1-dark.html",
+    "bytes": 42372,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header1-light.html",
+    "bytes": 42392,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header1-transparent.html",
+    "bytes": 42393,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header2-dark.html",
+    "bytes": 58540,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header2-light.html",
+    "bytes": 11101,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "header2-transparent.html",
+    "bytes": 58557,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header3-dark.html",
+    "bytes": 58764,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header3-light.html",
+    "bytes": 58743,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header3-transparent.html",
+    "bytes": 58734,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header4-dark.html",
+    "bytes": 60498,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header4-light.html",
+    "bytes": 60493,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header4-transparent.html",
+    "bytes": 60436,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header5-dark.html",
+    "bytes": 60189,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header5-light.html",
+    "bytes": 60414,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "header5-transparent.html",
+    "bytes": 60475,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "home1.html",
+    "bytes": 74151,
+    "classification": "uncertain",
+    "action": "move",
+    "destination": "retained/home1.html",
+    "reason": "Draf campuran sekolah/demo belum pasti; URL ke beranda",
+    "completed": true
+  },
+  {
+    "file": "home2.html",
+    "bytes": 78840,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "home3.html",
+    "bytes": 77478,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "home4.html",
+    "bytes": 67799,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "image-hover-effects.html",
+    "bytes": 63656,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "index.html",
+    "bytes": 67637,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "kolosaldrama.html",
+    "bytes": 39350,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "LICENSE",
+    "bytes": 1087,
+    "classification": "used",
+    "action": "keep",
+    "reason": "Lisensi/config awal dipertahankan",
+    "completed": true
+  },
+  {
+    "file": "maulkuadrat.html",
+    "bytes": 3996,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "meyawo/gulpfile.js",
+    "bytes": 3264,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/LICENSE.txt",
+    "bytes": 1083,
+    "classification": "used",
+    "action": "move",
+    "destination": "public/licenses/Meyawo-MIT.txt",
+    "reason": "Lisensi aset Meyawo yang masih dipakai",
+    "completed": true
+  },
+  {
+    "file": "meyawo/package.json",
+    "bytes": 828,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/css/meyawo.css",
+    "bytes": 263630,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/css/meyawo.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/A4_logo.png",
+    "bytes": 363430,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/imgs/A4_logo.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/analytics.svg",
+    "bytes": 3712,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/avatar2.jpg",
+    "bytes": 9809,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/avatar3.jpg",
+    "bytes": 18381,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/folio-1.jpg",
+    "bytes": 62265,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/folio-2.jpg",
+    "bytes": 62477,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/folio-3.jpg",
+    "bytes": 64287,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/header.jpg",
+    "bytes": 127543,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/imgs/header.jpg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/img-1.jpg",
+    "bytes": 74349,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/img-2.jpg",
+    "bytes": 47654,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/logo-upb.png",
+    "bytes": 239033,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/imgs/logo-upb.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/man.png",
+    "bytes": 64957,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/maul.png",
+    "bytes": 7350622,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/imgs/maul.png",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/pencil-case.svg",
+    "bytes": 3654,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/responsive.svg",
+    "bytes": 3192,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/scooter.svg",
+    "bytes": 4600,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/shipped.svg",
+    "bytes": 4034,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/startup.svg",
+    "bytes": 4252,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/imgs/toolbox.svg",
+    "bytes": 3013,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/js/meyawo.js",
+    "bytes": 1033,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/abstracts/_mixins.scss",
+    "bytes": 354,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/abstracts/_variables.scss",
+    "bytes": 4317,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/base/_base.scss",
+    "bytes": 99,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/base/_typography.scss",
+    "bytes": 2365,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_breadcrumb.scss",
+    "bytes": 186,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_button.scss",
+    "bytes": 42,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_card.scss",
+    "bytes": 5018,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_code.scss",
+    "bytes": 165,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_dropdown.scss",
+    "bytes": 39,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_hamburger.scss",
+    "bytes": 3385,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_navbar.scss",
+    "bytes": 4142,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/components/_pagination.scss",
+    "bytes": 575,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/layout/_footer.scss",
+    "bytes": 1163,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/layout/_header.scss",
+    "bytes": 2387,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/layout/_sections.scss",
+    "bytes": 1129,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/meyawo.scss",
+    "bytes": 2643,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_alert.scss",
+    "bytes": 255,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_background-variant.scss",
+    "bytes": 495,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_badge.scss",
+    "bytes": 335,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_border-radius.scss",
+    "bytes": 1403,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_box-shadow.scss",
+    "bytes": 552,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_breakpoints.scss",
+    "bytes": 4605,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_buttons.scss",
+    "bytes": 3476,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_caret.scss",
+    "bytes": 1468,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_clearfix.scss",
+    "bytes": 100,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_deprecate.scss",
+    "bytes": 623,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_float.scss",
+    "bytes": 400,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_forms.scss",
+    "bytes": 5104,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_gradients.scss",
+    "bytes": 2095,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_grid-framework.scss",
+    "bytes": 1894,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_grid.scss",
+    "bytes": 1619,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_hover.scss",
+    "bytes": 786,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_image.scss",
+    "bytes": 1195,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_list-group.scss",
+    "bytes": 452,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_lists.scss",
+    "bytes": 175,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_nav-divider.scss",
+    "bytes": 271,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_pagination.scss",
+    "bytes": 484,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_reset-text.scss",
+    "bytes": 496,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_resize.scss",
+    "bytes": 208,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_screen-reader.scss",
+    "bytes": 766,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_size.scss",
+    "bytes": 155,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_table-row.scss",
+    "bytes": 831,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-emphasis.scss",
+    "bytes": 380,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-hide.scss",
+    "bytes": 337,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_text-truncate.scss",
+    "bytes": 176,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_transition.scss",
+    "bytes": 380,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/mixins/_visibility.scss",
+    "bytes": 197,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_align.scss",
+    "bytes": 428,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_background.scss",
+    "bytes": 416,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_borders.scss",
+    "bytes": 1840,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_clearfix.scss",
+    "bytes": 40,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_display.scss",
+    "bytes": 545,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_embed.scss",
+    "bytes": 885,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_flex.scss",
+    "bytes": 2820,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_float.scss",
+    "bytes": 387,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_overflow.scss",
+    "bytes": 138,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_position.scss",
+    "bytes": 516,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_screenreaders.scss",
+    "bytes": 126,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_shadows.scss",
+    "bytes": 255,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_sizing.scss",
+    "bytes": 518,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_spacing.scss",
+    "bytes": 2174,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_stretched-link.scss",
+    "bytes": 450,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_text.scss",
+    "bytes": 2082,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/utilities/_visibility.scss",
+    "bytes": 187,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/vendor/_rfs.scss",
+    "bytes": 6677,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_alert.scss",
+    "bytes": 1199,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_badge.scss",
+    "bytes": 1173,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_breadcrumb.scss",
+    "bytes": 1319,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_button-group.scss",
+    "bytes": 3787,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_buttons.scss",
+    "bytes": 2684,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_card.scss",
+    "bytes": 6161,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_carousel.scss",
+    "bytes": 4953,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_close.scss",
+    "bytes": 997,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_code.scss",
+    "bytes": 1061,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_custom-forms.scss",
+    "bytes": 15373,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_dropdown.scss",
+    "bytes": 4554,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_forms.scss",
+    "bytes": 9146,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_functions.scss",
+    "bytes": 2805,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_grid.scss",
+    "bytes": 1068,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_images.scss",
+    "bytes": 1195,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_input-group.scss",
+    "bytes": 6048,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_jumbotron.scss",
+    "bytes": 422,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_list-group.scss",
+    "bytes": 3901,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_media.scss",
+    "bytes": 91,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_mixins.scss",
+    "bytes": 1106,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_modal.scss",
+    "bytes": 6159,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_nav.scss",
+    "bytes": 2189,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_navbar.scss",
+    "bytes": 6709,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_pagination.scss",
+    "bytes": 1813,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_popover.scss",
+    "bytes": 4968,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_print.scss",
+    "bytes": 3142,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_progress.scss",
+    "bytes": 1111,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_reboot.scss",
+    "bytes": 11670,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_root.scss",
+    "bytes": 591,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_spinners.scss",
+    "bytes": 1106,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_tables.scss",
+    "bytes": 3705,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_toasts.scss",
+    "bytes": 1034,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_tooltip.scss",
+    "bytes": 2627,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_transitions.scss",
+    "bytes": 281,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_type.scss",
+    "bytes": 2369,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_utilities.scss",
+    "bytes": 519,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/scss/vendors/bootstrap-4.3.1/_variables.scss",
+    "bytes": 48890,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.affix.js",
+    "bytes": 5000,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.bundle.js",
+    "bytes": 229924,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.bundle.js.map",
+    "bytes": 402249,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.bundle.min.js",
+    "bytes": 78641,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.bundle.min.js.map",
+    "bytes": 311949,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.js",
+    "bytes": 136072,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.js.map",
+    "bytes": 250568,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.min.js",
+    "bytes": 58078,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/bootstrap/bootstrap.min.js.map",
+    "bytes": 190253,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.js",
+    "bytes": 290962,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.min.js",
+    "bytes": 88147,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.min.map",
+    "bytes": 136409,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.slim.js",
+    "bytes": 235517,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.slim.min.js",
+    "bytes": 71039,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/jquery/jquery-3.4.1.slim.min.map",
+    "bytes": 108769,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/themify-icons/css/themify-icons.css",
+    "bytes": 17531,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/vendors/themify-icons/css/themify-icons.css",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/themify-icons/fonts/themify.eot",
+    "bytes": 78748,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/vendors/themify-icons/fonts/themify.eot",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/themify-icons/fonts/themify.svg",
+    "bytes": 234630,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/vendors/themify-icons/fonts/themify.svg",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/themify-icons/fonts/themify.ttf",
+    "bytes": 78584,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/vendors/themify-icons/fonts/themify.ttf",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/assets/vendors/themify-icons/fonts/themify.woff",
+    "bytes": 56108,
+    "classification": "used",
+    "action": "migrated",
+    "destination": "public/meyawo/public_html/assets/vendors/themify-icons/fonts/themify.woff",
+    "reason": "Aset/style/font yang dirujuk hasil akhir",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/components.html",
+    "bytes": 42527,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "meyawo/public_html/maulkuadrat.html",
+    "bytes": 3825,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "meyawo/README.txt",
+    "bytes": 485,
+    "classification": "used",
+    "action": "move",
+    "destination": "docs/original-meyawo-readme.txt",
+    "reason": "Petunjuk/atribusi template asal",
+    "completed": true
+  },
+  {
+    "file": "pawai.html",
+    "bytes": 39841,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "ppdb.html",
+    "bytes": 17748,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "pricing-table.html",
+    "bytes": 46738,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "README.md",
+    "bytes": 12044,
+    "classification": "used",
+    "action": "archive-and-replace",
+    "destination": "docs/original-template-readme.md",
+    "reason": "README baru untuk React",
+    "completed": true
+  },
+  {
+    "file": "register.html",
+    "bytes": 35198,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "sd.html",
+    "bytes": 26806,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "sejarah.html",
+    "bytes": 13906,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "signin.html",
+    "bytes": 33844,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "store_grid_list.html",
+    "bytes": 62219,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "store_single.html",
+    "bytes": 51785,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "supervisi.html",
+    "bytes": 40280,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "team.html",
+    "bytes": 48181,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "testimonials.html",
+    "bytes": 47159,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "thumbnail.png",
+    "bytes": 231,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "thumbnail2.png",
+    "bytes": 1767,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Vendor JS/SCSS/demo/thumbnail tidak dirujuk hasil akhir setelah interaksi diganti React",
+    "completed": true
+  },
+  {
+    "file": "tk.html",
+    "bytes": 28222,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/anbk.html",
+    "bytes": 48046,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/bromo.html",
+    "bytes": 35369,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/campleadersip.html",
+    "bytes": 48470,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/CNTHNEWS.html",
+    "bytes": 39025,
+    "classification": "proven unused",
+    "action": "delete",
+    "reason": "Isi demo/contoh terverifikasi; URL kompatibilitas dihasilkan saat build",
+    "completed": true
+  },
+  {
+    "file": "uanews/fathersday.html",
+    "bytes": 48506,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/GTC.html",
+    "bytes": 25602,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/its.html",
+    "bytes": 35373,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/kolosaldrama.html",
+    "bytes": 47262,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/mabit.html",
+    "bytes": 49122,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/marketday.html",
+    "bytes": 45558,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/maulid.html",
+    "bytes": 51622,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/museumangkot.html",
+    "bytes": 35365,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/pawai.html",
+    "bytes": 47751,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/puskesmas.html",
+    "bytes": 47494,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/raker.html",
+    "bytes": 47327,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/safarisosial.html",
+    "bytes": 46892,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/sdita.html",
+    "bytes": 46834,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/supervisi.html",
+    "bytes": 40545,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/unbraw.html",
+    "bytes": 35353,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/upacara17.html",
+    "bytes": 49235,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "uanews/walimatu.html",
+    "bytes": 47006,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "upacara17.html",
+    "bytes": 41215,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  },
+  {
+    "file": "visimisi.html",
+    "bytes": 14629,
+    "classification": "used",
+    "action": "delete",
+    "reason": "Konten/URL dipindahkan ke React dan HTML statis hasil build",
+    "completed": true
+  }
+]

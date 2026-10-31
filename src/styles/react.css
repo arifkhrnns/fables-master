@@ -1,0 +1,55 @@
+/* Interaction styles; the original school theme is retained in public/assets. */
+html { scroll-behavior: smooth; }
+img { max-width: 100%; }
+main { min-height: 35vh; }
+.skip-link { position: fixed; top: -100px; left: 10px; z-index: 10000; padding: 10px 16px; background: white; color: #005eff; }
+.skip-link:focus { top: 10px; }
+:focus-visible { outline: 3px solid #ffcc00; outline-offset: 3px; }
+.fables-nav button.nav-link { border: 0; background: transparent; cursor: pointer; font-family: inherit; }
+.fables-nav .dropdown-menu { display: none; }
+.fables-nav .dropdown-menu.show { display: block; }
+.react-carousel { display: block; position: relative; width: 100%; }
+.react-carousel-window { overflow: hidden; width: 100%; }
+.react-carousel-track { display: flex; align-items: stretch; transition: transform .5s ease; }
+.react-slide { min-width: 0; display: flex; justify-content: center; align-self: flex-start; }
+.react-slide > img, .react-slide > a > img { width: auto; max-width: 100%; }
+.ekstra-item { width: max-content; max-width: 100%; }
+.ekstra-carousel .react-slide { padding: 0 5px; }
+.carousel-controls { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 0; }
+.carousel-controls > button { border: 0; border-radius: 50%; background: #fff; color: #005eff; width: 30px; height: 30px; cursor: pointer; font-size: 24px; line-height: 1; }
+.carousel-controls .carousel-pause { font-size: 12px; }
+.owl-dots { display: flex; justify-content: center; flex-wrap: wrap; }
+.owl-dots .owl-dot { border: 0; padding: 0; background: transparent; cursor: pointer; }
+.owl-dots .owl-dot span { display: block; width: 10px; height: 10px; margin: 5px 7px; border-radius: 50%; background: #c5c5c5; }
+.owl-dots .owl-dot.active span { background: #3188ff; }
+.unique-header-carousel .carousel-controls { position: absolute; bottom: -44px; width: 100%; }
+.unique-header-carousel .react-slide { align-self: center; }
+.unique-header-carousel .unique-carousel-item { justify-content: center; }
+.unique-header-content a { display: inline-block; }
+.unit-card.active { outline: 2px solid #3188ff; }
+.school-lightbox { border: 0; padding: 36px 12px 12px; background: #fff; max-width: 94vw; max-height: 94vh; border-radius: 6px; }
+.school-lightbox::backdrop { background: rgb(0 0 0 / .8); }
+.school-lightbox img { max-height: 82vh; object-fit: contain; }
+.school-lightbox button { position: absolute; top: 0; right: 4px; border: 0; background: transparent; font-size: 28px; cursor: pointer; }
+.missing-image { display: inline-flex; align-items: center; justify-content: center; min-height: 100px; width: 100%; color: #606970; background: #eef0f2; font-size: 14px; }
+.wow { visibility: visible !important; }
+.whatsapp-button { z-index: 1035; }
+.ppdb-form iframe { display: block; }
+.grid { display: flex; flex-wrap: wrap; align-items: flex-start; }
+.instagram-container { max-width: 100%; overflow: hidden; }
+.instagram-container blockquote { margin: 1px auto; padding: 20px; border: 1px solid #eee; border-radius: 3px; max-width: 540px; background: white; }
+.instagram-container iframe { max-width: 100% !important; min-width: 0 !important; }
+@media (max-width: 767px) {
+  .fables-nav .dropdown-menu { position: static; float: none; }
+  .fables-nav button.nav-link { width: 100%; text-align: left; }
+  .fables-nav .dropdown-menu.show { display: block; }
+  .unique-header-content { max-width: 100%; }
+  .unique-header-container { transform: translateY(-15vh); }
+  .unique-header-carousel .react-slide { padding: 0 15px; align-self: flex-start; }
+  .carousel-controls { gap: 3px; }
+  .owl-dots .owl-dot span { margin: 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

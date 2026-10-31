@@ -1,0 +1,28 @@
+/* Unit content restored from ee33d1f; keep styles scoped to these pages. */
+.unit-page .program-img {
+  width: 250px;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.unit-page .alumni-logo {
+  max-height: 70px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.unit-page .alumni-logo:hover { transform: scale(1.15); }
+.unit-page .alumni-carousel .react-slide { padding: 0 10px; }
+.unit-page .alumni-carousel .item { width: 100%; }
+.unit-page .alumni-carousel p { font-size: 14px; margin-top: 8px; white-space: normal; }
+.unit-page .unit-banner-link { display: block; }
+.unit-page .unit-gallery .react-carousel-window { border-radius: .25rem; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); }
+.unit-page .unit-gallery .react-slide { align-items: flex-start; }
+@media (max-width: 767px) {
+  .unit-page > div[style*="background-image"] > div:last-child { padding: 0 15px; }
+  .unit-page > div[style*="background-image"] h1 { font-size: 36px !important; }
+  .unit-page .alumni-carousel .react-slide { padding: 0 8px; }
+}

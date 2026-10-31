@@ -1,219 +1,131 @@
-# Multipurpose Corporation HTML5 Template
+# Website SIT Ulil Albab
 
-[![Multipurpose Corporation HTML5 Template](https://tech-labs.github.io/fables/assets/custom/images/logo-dark.png "Multipurpose Corporation HTML5 Template")](https://tech-labs.github.io/fables/)
+React + Vite + JavaScript, dengan **HTML statis berisi konten untuk setiap URL**. URL `.html` dan direktori `uanews/` tetap tersedia. Node.js hanya diperlukan di komputer pengembang untuk build, bukan di hosting.
 
-Fables is the awesome responsive HTML5 template created for corporate and portfolio websites – business site needn’t be boring! It features a very clean and minimal design that is perfect for showcasing your work. It is also optimized for Retina Displays (used in iPhone, iPad and MacBook Pro Retina).
+## Instalasi dan menjalankan
 
-[Demo](https://tech-labs.github.io/fables/)
+Gunakan Node.js 22.12 atau lebih baru (divalidasi dengan Node 24.18.0).
 
-## Features
+```sh
+npm ci
+npm run dev
+```
 
-*   Responsive HTML5 and CSS3 design
-*   Css animations
-*   Multiple Headers and Footers
-*   Clean and Modern Design
-*   Clean and Modern Code
-*   Masonry portfolio layouts
-*   Easy to edit by changing html classes
-*   Based on Bootstrap4 the latest version
-*   Based on fontawesome5 the latest version
-*   all the libraries used in this template is the latest version .
-*   Multi-Purpose Design , you can use it as a bussiness template or an online store .
-*   Web Friendly Fonts
-*   in this template you have variety of designs , such as the template contains 4 design for home page , three designs for about us page , three designs for contact us page , many dsigns for blog single or blog category , many designs for gallery . all according your need .
+Buka alamat Vite, biasanya `http://127.0.0.1:5173`. Rute seperti `/tk.html`, `/sd.html`, `/uanews/safarisosial.html` dapat dibuka langsung dan di-refresh.
 
+```sh
+npm run build
+npm run preview
+```
 
-## File/Folder Structure
+Keluaran: `dist/`. Pratinjau: `http://127.0.0.1:4173`, memakai server statis dengan status 404 sungguhan tanpa fallback SPA. Jangan membuka melalui `file://` karena aset menggunakan URL dari akar domain.
 
-The files are placed in organized folders so to make it easy for you to find files where you will need to do customizations or change other stuffs easily. Below is the folders and details of what they are for
+## Mengedit konten
 
-*   assets/custom/CSS: This folder contains all style files or stylesheets.
-*   assets/custom/Fonts: This folder contains all the fonts used for in the Template.
-*   assets/custom/Js: This folder contains all the scripts
-*   assets/custom/images: This folder contains all the images
-*   vendor/: This folder contains all the Libraries Used In this Template like ( animate.css , bootstrap , fancybox , fontawesome , jquery , owlcarousel , popper , WOW).
+### Unit Perpustakaan (pratinjau lokal)
 
-## Installation
+- Beranda: `http://127.0.0.1:4173/perpustakaan.html`
+- Organisasi: `http://127.0.0.1:4173/perpustakaan-organisasi.html`
 
-You Can upload the compressed fils via ftp , then you can extract it and begin to change the basic data such as phone numbers , fax , email , the location of google map according to your personal data .
+Jalankan `npm run build` lalu `npm run preview`. Menu Unit desktop/ponsel sudah mencakup Perpustakaan. Header/style khusus, ilustrasi SVG lokal dan WhatsApp menggunakan konfigurasi kontak sekolah yang ada. Enam menu tanpa tujuan resmi ditandai Segera hadir.
 
-## HTML Structure
+**Gambar Organisasi sudah terpasang:** PNG asli 1600 × 968 ditampilkan utuh dan dapat diklik/ditap untuk membuka ukuran asli. Halaman Organisasi masuk sitemap. Referensi desain beranda (gambar 1) masih belum tersedia; beranda mengikuti arahan visual tertulis. Rincian komponen, aset dan hasil pemeriksaan: [docs/LIBRARY.md](docs/LIBRARY.md). Build memuat 48 halaman dan 68 URL kompatibilitas. Masalah editorial sebelumnya tetap ditunda. Uji khusus: `node scripts/library-test.mjs`; uji gambar organisasi: `node scripts/organization-test.mjs` (Chrome lokal).
 
-On Opening the main Index.html file. You can see the full HTML structure of the Template. Every Section of the Template is properly commented so you can see which section starts/ends.  
-the template is divided into main six parts :-  
+### Lokasi konten
 
-1- index : the template contains four different designs we have . (index1.html , index2.html , index3.html , index4.html ). every design of each page contains all you need to add to your home page , it will cover all your needs.  
+| Lokasi | Kegunaan |
+| --- | --- |
+| `src/pages/index.jsx` | Beranda, program, ekstrakurikuler, data pemilih unit |
+| `src/pages/tk.jsx`, `sd.jsx`, `smp.jsx`, `sma.jsx`, `ppdb.jsx`, `visimisi.jsx`, `sejarah.jsx` | Halaman utama sekolah |
+| `src/pages/uanews/*.jsx` | Artikel/indeks berita |
+| `src/pages/blog-cat-masonry.jsx` | Kartu daftar berita |
+| `src/data/site.js` | Identitas, menu, Instagram, Google Forms, GTM |
+| `src/data/routes.json` | URL, komponen, metadata SEO, canonical, kontak tiap halaman |
+| `src/data/aliases.json` | Tujuan URL kompatibilitas |
+| `src/components/` | Header, Footer, carousel, galeri, unit, WhatsApp, embed |
+| `public/assets/custom/images/` | Foto/logo yang dipakai, nama asli |
+| `public/assets/custom/css/` | Tema dan CSS responsif sekolah |
+| `public/styles/pages/` | CSS khusus halaman yang sebelumnya inline |
+| `src/styles/react.css` | Style interaksi React/perbaikan responsif |
 
-2- about us : the template contains three different designs . we have (about1.html , about2.html , about3.html ). every design of each page contains all you need to add to your about us page like :-  
-    2.1 - you can add the services your company provide .  
-    2.2 - you can add counter to count your clients , your successfull Deal your professional Employee .  
-             you can also show your professional team to your customers .  
-    2.3 - you can add show your Success Partners to give the Confidence to your next clients .  
-    2.4 - you can add show your testimonials and clients opinion .  
+Artikel baru: buat JSX di `src/pages/uanews/`, tambahkan `/uanews/nama.html` di `routes.json` dengan `component: "uanews/nama"`, kemudian tambahkan kartu berita. Build menghasilkan HTML, metadata dan sitemap. Cocokkan kapitalisasi nama berkas untuk hosting Linux; URL aset misalnya `/assets/custom/images/foto.jpg`.
 
-3- Store : the template contains two different designs about the store ( store_grid_list.html , store_single.html ). the two designs of each page contains all you need to add to your store like :-  
-    3.1 - you can view all products you need in two ways (View them as grid layout or list layout ) .  
-    3.2 - the single product page contains all the data of the product you need to show to your clients such slider , description , number of items you need , the color of the items . also you can share your product to social media with friends .  
+Pengelola mengonfirmasi kedua nomor sekolah dipakai untuk PPDB dan kontak umum. Pembagian fungsi per nomor belum ditentukan; metadata `phone`/`whatsapp` tetap mempertahankan tujuan menurut halaman asal. Kontak pembuat tetap terpisah. Profil dan aset TK/SD/SMP/SMA telah dipulihkan dari sumber Git sebelum migrasi yang lebih baru (`ee33d1f`), termasuk galeri dan banner. Lihat [bukti pemulihan 35 aset](docs/ASSET-RECOVERY.md) beserta manifest hash. Daftar `missing-original-assets.json` adalah snapshot baseline lama, bukan daftar kehilangan unit terkini.
 
-4- Blog : the template contains many designs about the blog . there are many designs to show your blogs . the designs of each page contains all you need to add to your blog page like :-  
-    4.1 - there are various layouts to show the blog category .  
-    4.2 - there are various layouts to show the single blog page , you may show blog with image or with video or with sider all according to your needs .  
-    4.3 - you can also show your events timeline .  
+PPDB aktif menggunakan **tahun ajaran 2026/2027**, sesuai konfirmasi pengelola. Tahun teks antarmuka berada di `site.ppdbYear` pada `src/data/site.js`; metadata beranda/PPDB/formulir ada di `src/data/routes.json`. Arsip berita/kegiatan mempertahankan tahun asli. URL embed, tautan langsung, dan identitas Google Forms tetap sama. Bukti pemeriksaan lama menunjukkan judul Google Forms 2025/2026: pemilik formulir masih perlu memperbarui judul/isinya sendiri. Perubahan teks situs tidak mengubah isi iframe Google Forms.
 
-5- page : the template contains many designs about the page . there are many designs to show your pages . the designs of each page contains all you need to add to your page like :-  
-    5.1 - you can show your gallery or your portfolio .  
-    5.2 - there is under construction page , you can show it white preparing your site or a specific page .  
-    5.3 - there 404 page to show when some links not found .  
+Banner SMA asli bertahun 2026–2027 tetapi memuat tanggal gelombang/diskon tahun 2025; perlu konfirmasi pengelola. Foto program SMP dan logo alumni SMA memiliki pemetaan asli yang perlu tinjauan editorial; tidak diganti berdasarkan dugaan.
 
-6- contact us : the template contains three designs about contact us page . there are three designs to show your contact us page . the designs of each page contains all you need to add to your contact us page like :-  
-    6.1 - you can add your company data such as (phone number , fax , email , social media links , the address)  
-    6.2 - you can add your location , there is a map showing the location to make it easy for clients to reach your company .  
-    6.3 - there is a form to let your clients message you any time , asking you about any thing , this is a good way to communicate with your clients .  
-7- Finally Features :  
-    7.1 - Headers & Footers : there is five designs for header and four designd for footer . in this part we collect all headers and footers , you can choose any header or any footer as you want  
-    7.2 - team members : there is three designs you can apply any of them located in 'team.html'  
-    7.3 - pricing table : there is three designs you can apply any of them located in 'pricing-table.html'  
-    7.4 - testimonials : there is four designs you can apply any of them located in 'testimonials.html'  
-    7.4 - blog : there is four designs you can apply any of them located in 'blog.html' 'blog.html'  
-    7.5 - counters : there is four designs you can apply any of them located in 'counters.html'  
-    7.6 - image hover effects : there is seven kinds of animations applied on images we have declared them in the animation section in this documentation .  
+Rincian tindak lanjut: [docs/OPEN-ISSUES.md](docs/OPEN-ISSUES.md), mencakup ketidaksesuaian gambar/profil sumber lama, pemetaan kontak, formulir, dan status hosting terbaru. Inventaris terstruktur: [docs/open-issues-inventory.json](docs/open-issues-inventory.json). Tombol brosur PPDB dinonaktifkan sampai tujuan unduhan resmi ditentukan.
 
-## CSS Structure
+## Struktur
 
-The overall CSS of the Template is distributed into different separate files. Inside the CSS folder, You can find the following CSS files.
+```text
+src/
+  App.jsx, main.jsx
+  components/
+  data/
+  pages/                 # termasuk uanews/ dan profil pembuat
+  styles/
+public/
+  assets/                # aset yang dipakai
+  meyawo/                # CSS/font/foto profil pembuat yang dipakai
+  styles/pages/
+  licenses/
+scripts/                 # build, server statis, validasi
+docs/                    # audit, inventaris, hasil pengujian
+retained/                # belum pasti; tidak masuk build
+dist/                    # hasil build, diabaikan Git
+test-results/            # laporan/screenshot lokal, diabaikan Git
+```
 
-*   custom.css : It is the main style file of the whole template . that contains all the styles you should use it when you to want to edit some styles like colors , font size , backgrouns ... ,etc .
-*   custom-responsive.css : it is the file that is responsible for the media queries to view the template in mobile phones and tablets in the best case , and to be fully responsive . it contains alot of screen sizes to cover all screens .
-*   fables-icons.css : it is the file that is responsibe for the icons in the website .
+Edit sumber JSX, bukan HTML `dist/`. Header/footer tidak memakai fetch. React dirender saat build lalu di-hydrate, mengikuti dokumentasi [Vite](https://vite.dev/guide/) dan [React hydrateRoot](https://react.dev/reference/react-dom/client/hydrateRoot).
 
+## Pengujian
 
-*   some examples to edit some styles througth html . just to change some prepared classes :-
-*   the main color of the tempalte is the dark blue is named as main color
-*   when you want to write text with the main color you just give it a class '.fables-main-text-color'
-*   and if you want to give a specific element a main background . you just add the class '.fables-main-background-color'
-*   and if tou want to add border to an element with the main color you just add the class '.fables-main-border-color' .
-*   Note : you can use all the above classes with the 5 colors of the template with the declared way like , '.fables-second-text-color' , '.fables-second-background-color' , '.fables-second-border-color'
+```sh
+npm run build
+npm test
+npm run test:browser
+```
 
-## Animation
+- `npm test`: HTML berisi konten, title/h1/meta/canonical, referensi HTML/CSS/font/gambar, URL lama, tujuan Google Forms.
+- `test:browser`: perlu Chrome terpasang. Memeriksa seluruh route terdaftar (kini 48 halaman) pada 1440px/390px, reload, menu, carousel, unit, lightbox, tujuan WhatsApp, console, gambar, overflow, 404, HTML tanpa JavaScript. Set `BROWSER_CHANNEL=msedge` untuk Edge. Pada penambahan perpustakaan hanya uji browser khusus yang dijalankan; hasil uji unit lama digunakan kembali.
+- `scripts/form-check.mjs` adalah pemeriksaan eksternal terpisah yang memuat formulir asli dan menekan Berikutnya dengan isian kosong. Tidak dijalankan pada pembaruan PPDB/Netlify; pemeriksaan baru hanya memeriksa URL iframe/tautan dari HTML lokal dengan jaringan eksternal diblokir.
+- Laporan/screenshot: `test-results/`. Hasil yang benar-benar dijalankan: `docs/VALIDATION.md`.
 
-there is some fantastic animations in this template like
+## Hosting Netlify
 
-*   Translate Effect : to use it , just Surround the '' element with a div containing class of the wanted animation . example :-  
-    ```
-    <div class="image-container translate-effect-right">
+Pengelola mengonfirmasi alur **GitHub → build dan hosting Netlify**; domain `ulilalbab.sch.id` dikelola melalui **IDwebhost**. IDwebhost bukan tujuan upload berkas situs pada alur ini. Konfigurasi lokal ada di [netlify.toml](netlify.toml).
 
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   ZoomIn Effect  
-    ```
-
-    <div class="image-container zoomIn-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   ZoomOut Effect
-    ```
-
-    <div class="image-container zoomOut-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   RotateIn Effect'
-    ```
-
-    <div class="image-container rotateIn-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   RotateOut Effect
-    ```
-
-    <div class="image-container rotateOut-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   Shine Effect
-    ```
-
-    <div class="image-container shine-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-*   Circle Effect
-    ```
-
-    <div class="image-container circle-effect">
-
-           <img src="http://via.placeholder.com/350x209" alt="alt image text">
-
-    </div>
-
-    ```
-
-## Javascript Structure
-
-This Template uses latest version of jQuery and other JavaScript libraries to add extra functioanlity.
-
-*   comming soon counter down you can edit it from the html code inside the 'comming-soon.html' page by editing the date in this code  
-
-    ```
-    <div id="comming-soon" data-countdown="2019/01/01"></div>
-
-    ```
-*   you can change the default location to yours by edit the 'data-lng' & 'data-lat' in the 'contactus.html' file and edit the following code  
-    ```
-
-    <div id="map" data-lng="31.248848" data-lat="29.966324"  
-    data-icon="assets/custom/images/map-marker.png"  
-    data-zom="12" style="width:100%;height:420px">  
-    </div>
-
-    ```
-*   the counters which in the index pages and about pages you can change the values by changing the html code as follows :-  
-    ```
-
-    <h2 class="" data-count="307">0</h2>
-
-    ```
-where is the zero is the number to start and 307 is the number to reach .
-
-## Changelogs
-
-v1.0 (02.12.2018) - Initial Release
-
-## Sources & Credits
-
-
-*   **jQuery** - [http://jquery.com/](http://jquery.com/)
-*   **animate** - [https://daneden.github.io/animate.css/](https://daneden.github.io/animate.css/)
-*   **bootstrap** - [https://getbootstrap.com/](https://getbootstrap.com/)
-*   **fancybox** - [http://fancyapps.com/fancybox/3/](http://fancyapps.com/fancybox/3/)
-*   **fontawesome** - [https://fontawesome.com/](https://fontawesome.com/)
-*   **jQuery.countdown** - [http://hilios.github.io/jQuery.countdown/](http://hilios.github.io/jQuery.countdown/)
-*   **jquery.circle.progress** - [http://kottenator.github.io/jquery-circle-progress/](http://kottenator.github.io/jquery-circle-progress/)
-*   **loadscreen** - [http://tobiasahlin.com/spinkit/](http://tobiasahlin.com/spinkit/)
-*   **masonry** - [https://masonry.desandro.com/](https://masonry.desandro.com/)
-*   **OffCanvasMenuEffects** - [https://tympanus.net/Development/OffCanvasMenuEffects/sideslide.html](https://tympanus.net/Development/OffCanvasMenuEffects/sideslide.html)
-*   **owlcarousel** - [https://owlcarousel2.github.io/OwlCarousel2/](https://owlcarousel2.github.io/OwlCarousel2/)
-*   **jquery Timeline**- [https://www.jqueryscript.net/demo/Create-A-Responsive-Animated-Vertical-Timeline-with-jQuery-CSS3/](https://www.jqueryscript.net/demo/Create-A-Responsive-Animated-Vertical-Timeline-with-jQuery-CSS3/)
-*   **owlcarousel** - [https://owlcarousel2.github.io/OwlCarousel2/](https://owlcarousel2.github.io/OwlCarousel2/)
-*   **WOW-master** - [https://mynameismatthieu.com/WOW/](https://mynameismatthieu.com/WOW/)
-
+| Pengaturan | Nilai yang perlu cocok di Netlify |
+| --- | --- |
+| Repository / production branch | Repository GitHub dan branch produksi yang sudah terhubung; nama persisnya perlu dicocokkan di dashboard |
+| Base/package directory | Akar proyek yang berisi `package.json` dan `netlify.toml`; untuk struktur repository ini gunakan root, tanpa subfolder tambahan |
+| Build command | `npm run build`, menjalankan Vite **dan** generator 46 halaman + 68 URL kompatibilitas; jangan diganti hanya `vite build` |
+| Publish directory | `dist` |
+| Node.js | `24.18.0`, ditetapkan melalui `NODE_VERSION` pada netlify.toml dan sama dengan lingkungan validasi lokal |
+| Dependencies | `package-lock.json` disertakan; Vite/plugin berada dalam devDependencies sehingga instalasinya tidak boleh dihilangkan |
+| Pretty URLs | `false` dari `[build.processing.html]`; pertahankan URL `.html` yang dipakai tautan/canonical |
+| Domain | Tetap `https://ulilalbab.sch.id`; cocokkan primary domain/HTTPS yang sudah ada tanpa mengubah DNS/nameserver |
+
+Netlify melayani `index.html` untuk `/` dan memakai `dist/404.html` sebagai custom 404 secara otomatis. Konfigurasi ini tidak menambahkan redirect wildcard atau fallback SPA. `.htaccess` tetap dihasilkan untuk kompatibilitas Apache, tetapi **tidak digunakan oleh Netlify**. URL kompatibilitas tetap berupa dokumen pengarah HTML; belum diubah menjadi redirect HTTP 301.
+
+Periksa juga context overrides, environment variables, build plugins, Edge Functions, dan aturan redirect lama yang mungkin ditambahkan melalui dashboard/integrasi. Rincian risiko normalisasi URL dan matriks pemeriksaan setelah ada lingkungan Netlify tersedia di [docs/NETLIFY.md](docs/NETLIFY.md), mengikuti [dokumentasi routing Netlify](https://docs.netlify.com/manage/routing/redirects/redirect-options/) dan [konfigurasi berbasis file](https://docs.netlify.com/build/configure-builds/file-based-configuration/).
+
+`npm run dev` menguji middleware Vite; `npm run preview` menguji server statis lokal. Keduanya tidak meniru seluruh CDN/post-processing Netlify. Konfigurasi dashboard dan perilaku Netlify sebenarnya belum diuji. Hanya `dist` yang dipublikasikan; sumber, `node_modules`, `docs`, `retained`, cadangan, `.env`, dan laporan tidak masuk artefak publik. GTM aktif pada beranda build produksi; dimatikan pada dev.
+
+**Pekerjaan tetap lokal: tidak ada git push, deploy, perubahan Forms, domain, DNS, atau nameserver.**
+
+## Audit, pembersihan, pemulihan
+
+- `docs/AUDIT.md`: temuan dan keterbatasan sumber.
+- `docs/CLEANUP.md`, `docs/cleanup-plan.json`: rincian file dan alasan pembersihan.
+- [docs/BASELINE-COMPLETENESS.md](docs/BASELINE-COMPLETENESS.md): peta seluruh halaman/bagian baseline, tujuan tautan, pemulihan tambahan, perubahan disengaja dan keputusan pengelola yang masih diperlukan.
+- `docs/baseline-completeness.json`: perbandingan konten terhadap **ee33d1f1318478236ed4b657d5c50989abaa62e8**. Jalankan `node scripts/audit-baseline.mjs` setelah build untuk memeriksa ulang secara lokal.
+- `docs/content-preservation.json`: snapshot pemeriksaan awal terhadap `61b4601`; bukan bukti kelengkapan baseline terbaru.
+- Baseline sebelum migrasi: **ee33d1f**. Migrasi awal sempat memakai `61b4601` yang tertinggal; kesimpulan audit dan konten yang terlewat sudah dikoreksi.
+- Cadangan: `C:/Users/Lenovo/Documents/fables-before-react-20261031.zip`, di luar proyek/build.
+- Pulihkan file dari ZIP ke folder terpisah atau tinjau menggunakan `git show <commit>:<path>`. Hindari reset seluruh proyek yang dapat membuang perubahan baru.
+
+Lisensi Fables tetap di `LICENSE`; salinan lisensi distribusi/Meyawo di `public/licenses/`. Atribusi vendor CSS/font dipertahankan.
